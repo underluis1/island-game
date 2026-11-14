@@ -1,0 +1,1022 @@
+{
+ "id": "fone14",
+ "nameKey": "phones.fone14.name",
+ "year": 2023,
+ "minReputation": 3.8,
+ "dims": {
+  "w": 71.5,
+  "h": 146.7,
+  "d": 7.8,
+  "r": 11,
+  "flat": true
+ },
+ "style": {
+  "front": "notch",
+  "notchW": 27,
+  "camera": "dual_d",
+  "backMaterial": "glass",
+  "bezelTop": 3.4,
+  "bezelBottom": 3.4,
+  "bezelSide": 3.2,
+  "midframe": 4.3
+ },
+ "colors": [
+  {
+   "id": "sky",
+   "body": "#a9c4dc",
+   "back": "#bcd3e6"
+  },
+  {
+   "id": "starlight",
+   "body": "#ebe5d9",
+   "back": "#f5f1e8"
+  },
+  {
+   "id": "midnight",
+   "body": "#2b2d33",
+   "back": "#1e2025"
+  },
+  {
+   "id": "orchid",
+   "body": "#d8cbe6",
+   "back": "#e4daf0"
+  },
+  {
+   "id": "sunset",
+   "body": "#e9c34f",
+   "back": "#f1d473"
+  }
+ ],
+ "marketValue": 16500,
+ "difficulty": 2.1,
+ "components": [
+  {
+   "id": "housing",
+   "nameKey": "parts.housing.name",
+   "descKey": "parts.housing.desc",
+   "mesh": {
+    "gen": "housing",
+    "params": {}
+   },
+   "rect": [
+    0,
+    0,
+    71.5,
+    146.7
+   ],
+   "z": 0,
+   "t": 7.8,
+   "attachedBy": [],
+   "blockedBy": [],
+   "fragility": 0.1,
+   "value": 0,
+   "partCategory": "housing",
+   "functions": [],
+   "removable": false
+  },
+  {
+   "id": "display",
+   "nameKey": "parts.display_oled.name",
+   "descKey": "parts.display_oled.desc",
+   "mesh": {
+    "gen": "display",
+    "params": {
+     "flexSide": "left",
+     "flexY": [
+      -19,
+      51
+     ],
+     "oled": true
+    }
+   },
+   "rect": [
+    0,
+    0,
+    69.5,
+    144.7
+   ],
+   "z": 5.8,
+   "t": 2,
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "p2_l",
+     "screwType": "P2",
+     "length": 6.8,
+     "position": [
+      -5.6,
+      -73.35
+     ],
+     "access": {
+      "side": "any"
+     }
+    },
+    {
+     "type": "screw",
+     "id": "p2_r",
+     "screwType": "P2",
+     "length": 6.8,
+     "position": [
+      5.6,
+      -73.35
+     ],
+     "access": {
+      "side": "any"
+     }
+    },
+    {
+     "type": "adhesive",
+     "id": "disp_adh",
+     "kind": "perimeter",
+     "strength": 0.8,
+     "dangerZones": [
+      [
+       0.76,
+       0.9
+      ]
+     ]
+    },
+    {
+     "type": "connector",
+     "id": "conn_oled",
+     "connectorId": "oled",
+     "position": [
+      -17,
+      -15
+     ],
+     "under": "front_bracket"
+    },
+    {
+     "type": "connector",
+     "id": "conn_digitizer",
+     "connectorId": "digitizer",
+     "position": [
+      -17,
+      -21
+     ],
+     "under": "front_bracket"
+    },
+    {
+     "type": "connector",
+     "id": "conn_front",
+     "connectorId": "ambient",
+     "position": [
+      -12.5,
+      51
+     ],
+     "under": "front_top_bracket"
+    }
+   ],
+   "blockedBy": [],
+   "hinge": "left",
+   "fragility": 0.8,
+   "pairing": true,
+   "value": 4200,
+   "partCategory": "display",
+   "functions": [
+    "display",
+    "touch",
+    "trueTone"
+   ]
+  },
+  {
+   "id": "front_bracket",
+   "nameKey": "parts.front_bracket.name",
+   "descKey": "parts.front_bracket.desc",
+   "mesh": {
+    "gen": "bracket",
+    "params": {
+     "shape": "plate"
+    }
+   },
+   "rect": [
+    -17,
+    -19,
+    14,
+    17
+   ],
+   "z": 5,
+   "t": 0.4,
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "fb1",
+     "screwType": "Y000",
+     "length": 1,
+     "position": [
+      -22,
+      -12.5
+     ],
+     "overBoard": true,
+     "damages": "display"
+    },
+    {
+     "type": "screw",
+     "id": "fb2",
+     "screwType": "Y000",
+     "length": 1,
+     "position": [
+      -12,
+      -12.5
+     ],
+     "overBoard": true,
+     "damages": "display"
+    },
+    {
+     "type": "screw",
+     "id": "fb3",
+     "screwType": "Y000",
+     "length": 1.3,
+     "position": [
+      -17,
+      -25.5
+     ],
+     "overBoard": true,
+     "damages": "touch"
+    }
+   ],
+   "blockedBy": [
+    "display@open"
+   ],
+   "fragility": 0.2,
+   "value": 0,
+   "partCategory": "bracket",
+   "functions": []
+  },
+  {
+   "id": "front_top_bracket",
+   "nameKey": "parts.front_top_bracket.name",
+   "descKey": "parts.front_top_bracket.desc",
+   "mesh": {
+    "gen": "bracket",
+    "params": {
+     "shape": "plate"
+    }
+   },
+   "rect": [
+    -10,
+    51,
+    12,
+    7
+   ],
+   "z": 5,
+   "t": 0.4,
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "ft1",
+     "screwType": "PH000",
+     "length": 1.2,
+     "position": [
+      -14,
+      51
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "ft2",
+     "screwType": "PH000",
+     "length": 1.2,
+     "position": [
+      -6,
+      51
+     ]
+    }
+   ],
+   "blockedBy": [
+    "display@open"
+   ],
+   "fragility": 0.2,
+   "value": 0,
+   "partCategory": "bracket",
+   "functions": []
+  },
+  {
+   "id": "earpiece",
+   "nameKey": "parts.earpiece.name",
+   "descKey": "parts.earpiece.desc",
+   "mesh": {
+    "gen": "earpiece",
+    "params": {}
+   },
+   "rect": [
+    0,
+    69.2,
+    18,
+    4.5
+   ],
+   "z": 4.6,
+   "t": 1.1,
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "ep1",
+     "screwType": "PH000",
+     "length": 1.5,
+     "position": [
+      -7.5,
+      69.2
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "ep2",
+     "screwType": "PH000",
+     "length": 1.8,
+     "position": [
+      7.5,
+      69.2
+     ]
+    },
+    {
+     "type": "connector",
+     "id": "conn_ear",
+     "connectorId": "earpiece",
+     "position": [
+      -7.5,
+      52.5
+     ],
+     "under": "front_top_bracket"
+    }
+   ],
+   "blockedBy": [
+    "display"
+   ],
+   "fragility": 0.2,
+   "value": 170,
+   "partCategory": "earpiece",
+   "functions": [
+    "earpiece"
+   ]
+  },
+  {
+   "id": "truedepth",
+   "nameKey": "parts.truedepth.name",
+   "descKey": "parts.truedepth.desc",
+   "mesh": {
+    "gen": "truedepth",
+    "params": {}
+   },
+   "rect": [
+    9,
+    62.5,
+    26,
+    7
+   ],
+   "z": 4.6,
+   "t": 1.1,
+   "attachedBy": [
+    {
+     "type": "connector",
+     "id": "conn_truedepth",
+     "connectorId": "truedepth",
+     "position": [
+      -10,
+      49.5
+     ],
+     "under": "front_top_bracket"
+    },
+    {
+     "type": "clip",
+     "id": "td_clip"
+    }
+   ],
+   "blockedBy": [
+    "display",
+    "earpiece"
+   ],
+   "fragility": 0.9,
+   "pairing": true,
+   "value": 1300,
+   "partCategory": "front_sensor",
+   "functions": [
+    "biometric",
+    "frontCamera"
+   ]
+  },
+  {
+   "id": "sim_tray",
+   "nameKey": "parts.sim_tray.name",
+   "descKey": "parts.sim_tray.desc",
+   "mesh": {
+    "gen": "sim",
+    "params": {}
+   },
+   "rect": [
+    -34.7,
+    -8,
+    2,
+    14
+   ],
+   "z": 1.55,
+   "t": 1.3,
+   "attachedBy": [
+    {
+     "type": "clip",
+     "id": "sim_clip"
+    }
+   ],
+   "blockedBy": [],
+   "fragility": 0.2,
+   "value": 40,
+   "partCategory": "sim_tray",
+   "functions": [
+    "sim"
+   ]
+  },
+  {
+   "id": "back_glass",
+   "nameKey": "parts.back_glass.name",
+   "descKey": "parts.back_glass.desc",
+   "mesh": {
+    "gen": "backglass",
+    "params": {
+     "flexSide": "right",
+     "camera": "dual_d"
+    }
+   },
+   "rect": [
+    0,
+    0,
+    69.5,
+    144.7
+   ],
+   "z": 0,
+   "t": 1.3,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "adhesive",
+     "id": "back_adh",
+     "kind": "perimeter",
+     "strength": 0.9,
+     "dangerZones": [
+      [
+       0.2,
+       0.34
+      ]
+     ]
+    },
+    {
+     "type": "connector",
+     "id": "conn_back",
+     "connectorId": "wireless",
+     "position": [
+      9,
+      30
+     ],
+     "under": "back_bracket"
+    }
+   ],
+   "blockedBy": [],
+   "hinge": "right",
+   "fragility": 0.8,
+   "value": 650,
+   "partCategory": "back_glass",
+   "functions": [
+    "wireless"
+   ]
+  },
+  {
+   "id": "back_bracket",
+   "nameKey": "parts.back_bracket.name",
+   "descKey": "parts.back_bracket.desc",
+   "mesh": {
+    "gen": "bracket",
+    "params": {
+     "shape": "plate"
+    }
+   },
+   "rect": [
+    9,
+    30,
+    11,
+    8
+   ],
+   "z": 1.6,
+   "t": 0.4,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "kb1",
+     "screwType": "Y000",
+     "length": 1.1,
+     "position": [
+      5.5,
+      30
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "kb2",
+     "screwType": "Y000",
+     "length": 1.1,
+     "position": [
+      12.5,
+      30
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass@open"
+   ],
+   "fragility": 0.2,
+   "value": 0,
+   "partCategory": "bracket",
+   "functions": []
+  },
+  {
+   "id": "cam_bracket",
+   "nameKey": "parts.cam_bracket.name",
+   "descKey": "parts.cam_bracket.desc",
+   "mesh": {
+    "gen": "bracket",
+    "params": {
+     "shape": "camera",
+     "holes": 2
+    }
+   },
+   "rect": [
+    -20,
+    55,
+    26,
+    29
+   ],
+   "z": 1.5,
+   "t": 0.4,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "cb1",
+     "screwType": "PH000",
+     "length": 1.4,
+     "position": [
+      -31,
+      67.5
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cb2",
+     "screwType": "Y000",
+     "length": 1.5,
+     "position": [
+      -9,
+      67.5
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cb3",
+     "screwType": "SO",
+     "length": 2.3,
+     "position": [
+      -9,
+      42.5
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass"
+   ],
+   "fragility": 0.2,
+   "value": 0,
+   "partCategory": "bracket",
+   "functions": []
+  },
+  {
+   "id": "rear_camera",
+   "nameKey": "parts.rear_camera_dual.name",
+   "descKey": "parts.rear_camera_dual.desc",
+   "mesh": {
+    "gen": "camera",
+    "params": {
+     "lenses": 2,
+     "layout": "d"
+    }
+   },
+   "rect": [
+    -20,
+    55.5,
+    24,
+    25
+   ],
+   "z": 1.3,
+   "t": 3,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "bracket",
+     "id": "cam_br",
+     "bracketId": "cam_bracket"
+    },
+    {
+     "type": "connector",
+     "id": "conn_camera",
+     "connectorId": "camera",
+     "position": [
+      -11,
+      43.5
+     ],
+     "under": "cam_bracket"
+    }
+   ],
+   "blockedBy": [
+    "back_glass"
+   ],
+   "fragility": 0.5,
+   "value": 1200,
+   "partCategory": "rear_camera",
+   "functions": [
+    "rearCamera"
+   ]
+  },
+  {
+   "id": "speaker",
+   "nameKey": "parts.speaker.name",
+   "descKey": "parts.speaker.desc",
+   "mesh": {
+    "gen": "speaker",
+    "params": {}
+   },
+   "rect": [
+    -18.5,
+    -63,
+    27,
+    13.5
+   ],
+   "z": 1.3,
+   "t": 3,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "sk1",
+     "screwType": "PH000",
+     "length": 1.4,
+     "position": [
+      -30,
+      -58
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "sk2",
+     "screwType": "PH000",
+     "length": 1.4,
+     "position": [
+      -7,
+      -58
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "sk3",
+     "screwType": "Y000",
+     "length": 1.9,
+     "position": [
+      -30,
+      -68
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "sk4",
+     "screwType": "SO",
+     "length": 2.5,
+     "position": [
+      -18.5,
+      -68.5
+     ]
+    },
+    {
+     "type": "connector",
+     "id": "conn_speaker",
+     "connectorId": "speaker",
+     "position": [
+      -11,
+      -53.5
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass"
+   ],
+   "fragility": 0.2,
+   "value": 230,
+   "partCategory": "speaker",
+   "functions": [
+    "speaker"
+   ]
+  },
+  {
+   "id": "taptic",
+   "nameKey": "parts.taptic.name",
+   "descKey": "parts.taptic.desc",
+   "mesh": {
+    "gen": "taptic",
+    "params": {}
+   },
+   "rect": [
+    16,
+    -63,
+    25,
+    12
+   ],
+   "z": 1.3,
+   "t": 3,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "tt1",
+     "screwType": "PH000",
+     "length": 1.6,
+     "position": [
+      5.5,
+      -59
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "tt2",
+     "screwType": "Y000",
+     "length": 1.4,
+     "position": [
+      26.5,
+      -59
+     ]
+    },
+    {
+     "type": "connector",
+     "id": "conn_taptic",
+     "connectorId": "taptic",
+     "position": [
+      4,
+      -55
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass"
+   ],
+   "fragility": 0.2,
+   "value": 260,
+   "partCategory": "taptic",
+   "functions": [
+    "vibration"
+   ]
+  },
+  {
+   "id": "battery",
+   "nameKey": "parts.battery.name",
+   "descKey": "parts.battery.desc",
+   "mesh": {
+    "gen": "battery",
+    "params": {
+     "capacity": "3279 mAh",
+     "wh": "12.68 Wh",
+     "tabsAt": "both"
+    }
+   },
+   "rect": [
+    10.5,
+    -5,
+    38,
+    82
+   ],
+   "z": 1.3,
+   "t": 3,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "adhesive",
+     "id": "bat_adh",
+     "kind": "pulltab",
+     "strength": 0.8,
+     "tabs": 4
+    },
+    {
+     "type": "connector",
+     "id": "conn_battery",
+     "connectorId": "battery",
+     "position": [
+      -12.5,
+      -24
+     ],
+     "isBattery": true,
+     "access": {
+      "side": "front",
+      "requires": [
+       "display@open",
+       "front_bracket"
+      ]
+     }
+    }
+   ],
+   "blockedBy": [
+    "back_glass",
+    "speaker",
+    "taptic"
+   ],
+   "fragility": 0.5,
+   "pairing": true,
+   "value": 580,
+   "partCategory": "battery",
+   "functions": [
+    "power",
+    "battery"
+   ]
+  },
+  {
+   "id": "logic_board",
+   "nameKey": "parts.logic_board.name",
+   "descKey": "parts.logic_board.desc",
+   "mesh": {
+    "gen": "board",
+    "params": {
+     "chips": 11
+    }
+   },
+   "rect": [
+    -21,
+    8,
+    22,
+    62
+   ],
+   "z": 1.3,
+   "t": 2.9,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "mb1",
+     "screwType": "PH000",
+     "length": 1.3,
+     "position": [
+      -30,
+      -20
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "mb2",
+     "screwType": "SO",
+     "length": 2.2,
+     "position": [
+      -12,
+      -2
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "mb3",
+     "screwType": "SO",
+     "length": 2.8,
+     "position": [
+      -30,
+      16
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "mb4",
+     "screwType": "Y000",
+     "length": 1.2,
+     "position": [
+      -12,
+      28
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "mb5",
+     "screwType": "PH000",
+     "length": 2.9,
+     "position": [
+      -30,
+      36
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass",
+    "back_bracket",
+    "rear_camera",
+    "sim_tray"
+   ],
+   "fragility": 0.75,
+   "value": 6400,
+   "partCategory": "logic_board",
+   "functions": [
+    "power"
+   ],
+   "isBoard": true
+  },
+  {
+   "id": "charge_port",
+   "nameKey": "parts.charge_port.name",
+   "descKey": "parts.charge_port.desc",
+   "mesh": {
+    "gen": "port",
+    "params": {
+     "flexTo": [
+      -13,
+      -33
+     ]
+    }
+   },
+   "rect": [
+    0,
+    -70.4,
+    58,
+    5
+   ],
+   "z": 1.2,
+   "t": 2.4,
+   "side": "back",
+   "attachedBy": [
+    {
+     "type": "screw",
+     "id": "cq1",
+     "screwType": "PH000",
+     "length": 1.3,
+     "position": [
+      -26,
+      -70.5
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cq2",
+     "screwType": "PH000",
+     "length": 1.5,
+     "position": [
+      -13,
+      -71.2
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cq3",
+     "screwType": "PH000",
+     "length": 1.5,
+     "position": [
+      13,
+      -71.2
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cq4",
+     "screwType": "PH000",
+     "length": 2.8,
+     "position": [
+      26,
+      -70.5
+     ]
+    },
+    {
+     "type": "screw",
+     "id": "cq5",
+     "screwType": "Y000",
+     "length": 1.2,
+     "position": [
+      0,
+      -69
+     ]
+    },
+    {
+     "type": "adhesive",
+     "id": "cp_adh",
+     "kind": "pad",
+     "strength": 0.5
+    },
+    {
+     "type": "connector",
+     "id": "conn_charge",
+     "connectorId": "charge",
+     "position": [
+      -13,
+      -33
+     ]
+    }
+   ],
+   "blockedBy": [
+    "back_glass",
+    "speaker",
+    "taptic"
+   ],
+   "fragility": 0.4,
+   "value": 380,
+   "partCategory": "charge_port",
+   "functions": [
+    "charging",
+    "microphone"
+   ],
+   "externalClean": true
+  }
+ ]
+}

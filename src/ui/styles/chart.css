@@ -1,0 +1,91 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  min-width: 0;
+}
+.chart-plot svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.ch-grid {
+  stroke: rgba(107, 66, 41, 0.16);
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+}
+.ch-zero {
+  stroke: rgba(107, 66, 41, 0.45);
+  stroke-dasharray: none;
+}
+.ch-tick {
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 700;
+  fill: var(--c-ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.ch-teal { --ch: var(--c-teal); }
+.ch-coral { --ch: var(--c-coral); }
+.ch-gold { --ch: var(--c-gold-d); }
+.ch-night { --ch: var(--c-night-2); }
+.ch-green { --ch: var(--c-green); }
+.ch-bar {
+  fill: var(--ch);
+  opacity: 0.85;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: ch-grow 0.6s var(--e-out) both;
+  animation-delay: calc(var(--i) * 35ms);
+}
+.ch-area {
+  fill: var(--ch);
+  opacity: 0.14;
+  animation: fade-in 0.8s 0.3s both;
+}
+.ch-line {
+  fill: none;
+  stroke: var(--ch);
+  stroke-width: 3.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  animation: ch-draw 0.9s var(--e-out) both;
+}
+.ch-dot {
+  fill: #fff;
+  stroke: var(--ch);
+  stroke-width: 2.6;
+}
+@keyframes ch-grow {
+  from { transform: scaleY(0); }
+}
+@keyframes ch-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-1) var(--s-4);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: var(--c-ink-2);
+}
+.chart-key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.chart-swatch {
+  width: 1.1em;
+  height: 0.3em;
+  border-radius: 0.2em;
+  background: var(--ch);
+}
+.chart-swatch.is-bar {
+  width: 0.7em;
+  height: 0.7em;
+}

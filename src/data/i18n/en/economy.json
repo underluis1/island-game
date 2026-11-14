@@ -1,0 +1,135 @@
+{
+  "currency": "฿ {amount}",
+  "err": {
+    "no_money": "You don't have enough money.",
+    "need_stage": "You need a bigger shop.",
+    "need_reputation": "You need more reputation.",
+    "max_tier": "You already have the best version.",
+    "unknown_item": "Item not available.",
+    "storage_full": "Parts storage is full ({cap} slots).",
+    "need_tool": "You need: {tool}.",
+    "no_scrap": "You have no broken displays of this model to refurbish.",
+    "separator_limit": "The separator has already run {n} times today: it needs to cool down.",
+    "spot_taken": "There's already something here.",
+    "bad_position": "You can't put that here.",
+    "under_construction": "Building work is already under way: it'll be ready tomorrow morning.",
+    "already_owned": "You already have it.",
+    "rack_full": "The phone rack is full.",
+    "on_bench": "Take the phone off the bench first.",
+    "already_listed": "This phone is already up for sale.",
+    "unknown_order": "Order not found.",
+    "not_ready": "The phone isn't marked as ready yet.",
+    "customer_away": "The customer hasn't come back to collect it yet.",
+    "no_customer": "There's nobody at the counter.",
+    "assistant_busy": "The assistant is working on it.",
+    "bench_busy": "The bench is occupied: put the other phone away first.",
+    "no_part": "You don't have this part in stock: {part}."
+  },
+  "stage": {
+    "1": "Stall",
+    "2": "Kiosk",
+    "3": "Shop"
+  },
+  "upgrade": {
+    "stage2": {
+      "name": "Wood and bamboo kiosk",
+      "desc": "Thatched roof, a bigger counter, a second workbench and a little accessories display that earns money every day. Building takes one night."
+    },
+    "stage3": {
+      "name": "Seafront shop",
+      "desc": "Glass front, air conditioning, micro-soldering bench, stockroom and a showcase for refurbished phones. You'll be able to hire an assistant. Building takes one night."
+    },
+    "assistant": {
+      "name": "Assistant",
+      "desc": "Repairs the simple orders in the queue on their own, using parts from stock. Wants paying every evening and won't touch the soldering iron."
+    }
+  },
+  "income": {
+    "repairs": "Repairs",
+    "tips": "Tips",
+    "used": "Used phone sales",
+    "showcase": "Accessories display",
+    "decor": "Decorations resold",
+    "loan": "Loan from Uncle Somchai"
+  },
+  "expense": {
+    "parts": "Parts",
+    "tools": "Tools",
+    "decor": "Decorations",
+    "used": "Flea market purchases",
+    "rent": "Pitch rent",
+    "electricity": "Electricity",
+    "wages": "Assistant's wages",
+    "stage": "Expansion work",
+    "loan": "Repayment to Uncle Somchai"
+  },
+  "summary": {
+    "title": "Day {day} summary",
+    "income": "Income",
+    "expenses": "Expenses",
+    "net": "Net result",
+    "money": "In the till",
+    "jobs": "Repairs delivered",
+    "failed": "Orders lost",
+    "customers": "Customers served",
+    "reviews": "Today's reviews",
+    "no_reviews": "No reviews today.",
+    "reputation": "Reputation",
+    "chart": "Last few days",
+    "next_day": "Go to sleep"
+  },
+  "loan": {
+    "title": "Uncle Somchai lends a hand",
+    "line1": "Mai pen rai, kiddo. Take {amount} ฿ and start fresh tomorrow: my first year I was always in the red too.",
+    "line2": "Empty till, eh? Here's {amount} ฿. You can pay me back a little at a time… and meanwhile, people do talk.",
+    "line3": "A repairer with no money is like a long-tail boat with no engine. Take {amount} ฿ and get back to the bench."
+  },
+  "notify": {
+    "customer_arrived": "{name} has arrived at the counter.",
+    "customer_left_impatient": "{name} got tired of waiting.",
+    "pickup_arrived": "{name} is back to collect the phone.",
+    "order_overdue": "{name} is waiting: the phone should have been ready!",
+    "order_failed": "{name} stormed off, furious.",
+    "order_postponed": "{name} will be back tomorrow. Be ready.",
+    "delivery_boat": "Mr. Chai's boat has delivered {n} parts.",
+    "delivery_express": "Express delivery: {n} parts have arrived.",
+    "used_sold": "You sold a used {model} for {price} ฿!",
+    "assistant_done": "The assistant has finished a repair.",
+    "assistant_stuck": "The assistant can't finish a job: over to you.",
+    "rain_start": "A downpour is rolling in: fewer people about.",
+    "rain_stop": "The sun is back.",
+    "day_ending": "Closing time soon.",
+    "stage_built": "The work is done: welcome to your new {stage}!",
+    "review": "New review: {stars} ★",
+    "tip": "Tip: {tip} ฿"
+  },
+  "parts": {
+    "standard": "On tomorrow morning's boat",
+    "express": "Express (about 2 hours)",
+    "in_stock": "In stock: {n}",
+    "incoming": "On the way: {n}",
+    "defect": "Defect risk: {pct}%"
+  },
+  "used": {
+    "title": "Second-hand market",
+    "seller": "Sold by {name}",
+    "ask": "Estimated resale price: {price} ฿",
+    "listed": "On sale for {price} ฿",
+    "empty": "No interesting listings today."
+  },
+  "quote": {
+    "fair": "Fair price: {price} ฿",
+    "labor": "Labour",
+    "parts": "Parts",
+    "due": "Due"
+  },
+  "save": {
+    "empty": "Empty slot.",
+    "corrupt": "This save is corrupted and can't be loaded.",
+    "newer_version": "This save was created with a newer version of the game.",
+    "storage_failed": "Couldn't write the save: browser storage is full or blocked.",
+    "auto": "Autosave",
+    "slot": "Slot {n}",
+    "meta": "Day {day} · {money} ฿ · {stars} ★"
+  }
+}

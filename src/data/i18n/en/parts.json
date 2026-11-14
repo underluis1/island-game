@@ -1,0 +1,185 @@
+{
+  "housing": {
+    "name": "Housing",
+    "desc": "The metal frame that holds the whole phone together and doubles as a heat sink and an antenna. Every other component is screwed or glued to it. If it bends, the screen and the board are put under stress and sooner or later they crack."
+  },
+  "display_lcd": {
+    "name": "LCD display",
+    "desc": "A liquid crystal panel with backlight, glass and touch digitizer in a single unit. A chip on the flex cable stores the colour calibration (True Tone), which is tied to the logic board. When it fails you get cracks, blotches or lines, or the touch goes haywire."
+  },
+  "display_oled": {
+    "name": "OLED display",
+    "desc": "A panel in which every pixel emits its own light: perfect blacks, but it's thin and fragile. It also contains the touch sensor and the True Tone calibration data. One bend or too much heat is enough to bring out green lines or dead zones."
+  },
+  "home_bracket": {
+    "name": "Home button bracket",
+    "desc": "A small metal plate that holds the Home button pressed against the glass and protects its flex cable. It has to come off to transfer the button to the new display. Without it, the button wobbles and the flex cable tears."
+  },
+  "home_button": {
+    "name": "Home button with Touch ID",
+    "desc": "A solid-state button with a fingerprint reader. The sensor is paired to the logic board at the factory: it must always be transferred to the new display. A replaced button still works as a button, but Touch ID is lost for good."
+  },
+  "earpiece_bracket": {
+    "name": "Earpiece bracket",
+    "desc": "A thin metal plate that locks the earpiece speaker and front camera onto the back of the display. Without it the sensors shift and calls sound bad."
+  },
+  "sensor_assembly": {
+    "name": "Front sensor assembly",
+    "desc": "A single flex cable carrying the front camera, earpiece speaker, proximity sensor and top microphone. If it fails, selfies or call audio disappear, and the screen no longer turns off when you hold the phone to your ear."
+  },
+  "lower_bracket": {
+    "name": "Lower connector bracket",
+    "desc": "A metal shield screwed over the battery and display connectors. It stops the flex cables from popping off when the phone takes a knock. Its screws are different lengths: mixing them up can pierce the board underneath."
+  },
+  "upper_bracket": {
+    "name": "Upper connector bracket",
+    "desc": "A shield covering the front sensor connector on the logic board. It has to be removed before the display can be detached completely."
+  },
+  "battery": {
+    "name": "Battery",
+    "desc": "A lithium-ion cell that powers the whole phone, held in place by stretchy adhesive pull tabs. It loses capacity with every charge cycle, and if punctured or bent it can swell or catch fire. Its connector is the first to disconnect and the last to reconnect."
+  },
+  "taptic": {
+    "name": "Haptic engine",
+    "desc": "A linear actuator that produces vibrations and the simulated “clicks” of the screen and Home button. If it jams, the phone stops vibrating or gives off a buzz."
+  },
+  "speaker": {
+    "name": "Speaker",
+    "desc": "A module with a diaphragm and acoustic chamber for the ringtone, music and speakerphone. Sand and water clog the grille and muffle the sound; a torn diaphragm crackles."
+  },
+  "cam_bracket": {
+    "name": "Camera bracket",
+    "desc": "A metal cover that holds the rear camera still and shields its connector. It must be tightened down properly, otherwise the focus shakes."
+  },
+  "rear_camera": {
+    "name": "Rear camera",
+    "desc": "A module with a sensor, lenses and an optical stabiliser suspended on tiny springs. A hard knock can break the stabiliser: photos come out blurred and the module buzzes."
+  },
+  "rear_camera_dual": {
+    "name": "Rear cameras",
+    "desc": "A single block with a wide-angle lens and a second lens, each with its own sensor. On recent models it is calibrated and paired to the logic board: an unprogrammed replacement works, but at reduced quality."
+  },
+  "sim_tray": {
+    "name": "SIM tray",
+    "desc": "The little drawer that carries the SIM card, with a rubber gasket to keep water out. Its slot holds the sticker that turns red on contact with liquids. Without the tray, the phone can't find a network."
+  },
+  "logic_board": {
+    "name": "Logic board",
+    "desc": "The brain of the phone: processor, memory, power, charging and radio chips on a single multilayer circuit. Every flex cable plugs in here. Corrosion, short circuits or a screw that's too long can break traces as thin as a hair."
+  },
+  "logic_board_sandwich": {
+    "name": "Sandwich logic board",
+    "desc": "Two circuit boards stacked and soldered together to save space, with the chips enclosed inside. It's very compact but doesn't cope well with drops and heat: if the two layers separate, the phone loses signal or won't boot."
+  },
+  "charge_port": {
+    "name": "Charging port",
+    "desc": "A flex cable carrying the charging connector, the main microphone and the lower antennas. It's where lint and sand build up and where salt water gets in first. If it fails, the phone won't charge or people can't hear you on calls."
+  },
+  "earpiece_asm": {
+    "name": "Earpiece and sensor assembly",
+    "desc": "The earpiece speaker combined with the infrared illuminator and the proximity and light sensors. The illuminator is part of face recognition and is paired to the board: it must be transferred to the new display, not replaced."
+  },
+  "conn_bracket": {
+    "name": "Connector bracket",
+    "desc": "A metal shield that covers the battery and display connectors in one go. It comes off first, right after opening the phone, so you can disconnect the battery."
+  },
+  "sensor_bracket": {
+    "name": "Sensor bracket",
+    "desc": "A small plate that locks down the front sensor connector. Its tiny screws are easy to lose: best to put them on the mat straight away."
+  },
+  "truedepth": {
+    "name": "Face recognition module",
+    "desc": "Front camera, infrared camera and a dot projector that draws a 3D map of the face. It's paired to the logic board for security: if you damage or replace it, face unlock will never work again."
+  },
+  "disp_bracket": {
+    "name": "Display connector bracket",
+    "desc": "A shield that protects the display flex cables where they plug into the logic board. It has to be removed before the screen can be detached."
+  },
+  "bat_bracket": {
+    "name": "Battery connector bracket",
+    "desc": "Covers the battery connector. It's the first bracket to remove: as long as the battery is connected, every other flex cable is live."
+  },
+  "top_bracket": {
+    "name": "Top bracket",
+    "desc": "The shield for the upper part of the phone, over the front sensor connectors. It uses three different types of screw: make sure each one goes back in its own hole."
+  },
+  "earpiece": {
+    "name": "Earpiece speaker",
+    "desc": "The small speaker you hold to your ear on calls; it also acts as the second stereo channel. Its mesh clogs up with dust and sweat, and voices start to sound far away."
+  },
+  "front_bracket": {
+    "name": "Front connector bracket",
+    "desc": "A metal shield over the display connectors, reached by opening the phone from the front. It keeps the flex cables pressed into their sockets: forget it, and the first knock will black out the screen."
+  },
+  "front_top_bracket": {
+    "name": "Front top bracket",
+    "desc": "Locks down the front sensor and earpiece speaker connectors in the upper part of the phone. It has to come off before the display can be fully detached; without it the flex cables slip out and call audio disappears."
+  },
+  "back_glass": {
+    "name": "Back glass",
+    "desc": "A glass panel carrying the wireless charging coil and the alignment magnet. On this model it's removed by heating the adhesive, and it gives access to the battery and components without touching the display. If it cracks, goodbye water resistance."
+  },
+  "back_bracket": {
+    "name": "Rear connector bracket",
+    "desc": "A shield covering the connectors reached from the back, including those for the battery and the wireless coil. It is the first thing to unscrew once the back glass is off, so the battery can be safely disconnected."
+  },
+  "conn": {
+    "lcd": "LCD flex cable",
+    "digitizer": "Touch flex cable",
+    "front_sensor": "Front sensor flex cable",
+    "home": "Home button flex cable",
+    "battery": "Battery connector",
+    "taptic": "Haptic engine flex cable",
+    "camera": "Camera flex cable",
+    "charge": "Charging port flex cable",
+    "oled": "OLED flex cable",
+    "earpiece": "Earpiece flex cable",
+    "speaker": "Speaker flex cable",
+    "truedepth": "Face recognition flex cable",
+    "ambient": "Light sensor flex cable",
+    "wireless": "Wireless coil flex cable"
+  },
+  "category": {
+    "housing": "Housing",
+    "display": "Display",
+    "back_glass": "Back glass",
+    "battery": "Battery",
+    "logic_board": "Logic board",
+    "charge_port": "Charging port",
+    "speaker": "Speaker",
+    "taptic": "Haptic engine",
+    "rear_camera": "Rear camera",
+    "front_sensor": "Front sensor module",
+    "earpiece": "Earpiece speaker",
+    "home_button": "Home button",
+    "bracket": "Bracket",
+    "sim_tray": "SIM tray"
+  },
+  "quality": {
+    "cheap": "Budget",
+    "good": "Good",
+    "refurb": "Refurbished original",
+    "factory": "Factory",
+    "cheap_desc": "Aftermarket: it's cheap, but nearly one in five is defective and the customer may notice.",
+    "good_desc": "Good-quality compatible part: reliable and fairly priced.",
+    "refurb_desc": "Refurbished original part: expensive, practically never defective, and customers appreciate it."
+  },
+  "screw": {
+    "P2": {
+      "name": "Pentalobe P2",
+      "use": "The two five-pointed star screws next to the charging port: they hold the screen shut."
+    },
+    "Y000": {
+      "name": "Tri-point Y000",
+      "use": "Tiny Y-shaped screws, used mostly on the connector brackets."
+    },
+    "PH000": {
+      "name": "Phillips #000",
+      "use": "The classic cross-head screws: they secure brackets, the speaker, the charging port and the logic board."
+    },
+    "SO": {
+      "name": "Standoff",
+      "use": "Spacers with a hollow head: they hold the board down and act as a seat for other screws."
+    }
+  }
+}

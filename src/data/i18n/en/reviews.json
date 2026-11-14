@@ -1,0 +1,149 @@
+{
+  "open": {
+    "s5": {
+      "1": "My {model} is as good as new!",
+      "2": "{shop} saved my holiday.",
+      "3": "Perfect repair, couldn't have asked for more."
+    },
+    "s4": {
+      "1": "Nice work on my {model}.",
+      "2": "Everything works again, I'm happy.",
+      "3": "{shop} is a proper little stall that knows its stuff."
+    },
+    "s3": {
+      "1": "An average repair.",
+      "2": "The phone works, but it wasn't all smooth sailing.",
+      "3": "Nothing special, but the {model} works."
+    },
+    "s2": {
+      "1": "I expected more.",
+      "2": "Disappointing experience with my {model}.",
+      "3": "Something went wrong."
+    },
+    "s1": {
+      "1": "Avoid.",
+      "2": "Terrible experience at {shop}.",
+      "3": "My {model} was better off before."
+    }
+  },
+  "fact": {
+    "partial": {
+      "1": "The problem is only half fixed.",
+      "2": "One thing got fixed, the other stayed just as it was."
+    },
+    "not_fixed": {
+      "1": "The fault is exactly where it was before.",
+      "2": "I got it back just as broken as when I handed it over."
+    },
+    "new_broken": {
+      "1": "On the bright side, something that used to work now doesn't.",
+      "2": "It left the bench with a brand-new fault."
+    },
+    "pairing": {
+      "1": "After the repair I lost a feature I used to have, and nobody warned me.",
+      "2": "Unlocking and the screen colours aren't what they used to be."
+    },
+    "screws": {
+      "1": "Shake it and something rattles: there are screws missing.",
+      "2": "The housing creaks, I reckon a few screws got forgotten."
+    },
+    "leftover": {
+      "1": "A piece of my phone was left on the bench. On the bench!",
+      "2": "There was a part “left over”. It's not flat-pack furniture."
+    },
+    "not_closed": {
+      "1": "I got it back still open.",
+      "2": "The screen wasn't even closed up."
+    },
+    "seal_lost": {
+      "1": "I was told it's no longer water resistant: a pity.",
+      "2": "No new seal, so goodbye waterproofing."
+    },
+    "seal_kept": {
+      "1": "A new seal went in too: splash-proof once again.",
+      "2": "Sealed up by the book, perfect for the boat."
+    },
+    "clean": {
+      "1": "I got it back spotless, not a grain of sand.",
+      "2": "It even got cleaned inside and out. A true gentleman."
+    },
+    "cheap_part": {
+      "1": "You can tell the replacement part is a cheap one, though.",
+      "2": "The new part isn't the same quality as the original, and it shows."
+    },
+    "premium_part": {
+      "1": "A refurbished original part was fitted: top quality.",
+      "2": "First-rate parts, you can feel the difference."
+    },
+    "fast": {
+      "1": "Super fast, it was ready way ahead of schedule.",
+      "2": "I hadn't even finished my coconut and it was already done."
+    },
+    "late": {
+      "1": "I had to wait longer than promised.",
+      "2": "Punctuality needs work: it wasn't ready at the agreed time."
+    },
+    "price_low": {
+      "1": "And at a really honest price.",
+      "2": "I spent far less than I feared."
+    },
+    "price_fair": {
+      "1": "Fair price.",
+      "2": "The bill was right, no surprises."
+    },
+    "price_high": {
+      "1": "A bit pricey for what was done.",
+      "2": "Definitely tourist prices."
+    },
+    "mistakes": {
+      "1": "I saw quite a bit of fumbling during the job.",
+      "2": "A few too many curses during the teardown."
+    },
+    "expert": {
+      "1": "Clearly knows the trade: working from memory, no guide in sight.",
+      "2": "The hands of a real expert, hypnotic to watch."
+    },
+    "misdiagnosis": {
+      "1": "At first I was told the problem was something else.",
+      "2": "The initial diagnosis was wrong."
+    },
+    "atmosphere": {
+      "1": "And the place is gorgeous, I'd go back just for the atmosphere.",
+      "2": "A lovingly kept stall right by the sea."
+    }
+  },
+  "close": {
+    "s5": {
+      "1": "Highly recommended!",
+      "2": "Five well-earned stars."
+    },
+    "s4": {
+      "1": "I recommend it.",
+      "2": "I'd go back."
+    },
+    "s3": {
+      "1": "Room for improvement.",
+      "2": "Nothing to rave about, nothing to complain about."
+    },
+    "s2": {
+      "1": "I don't think I'll be back.",
+      "2": "A shame."
+    },
+    "s1": {
+      "1": "Never again.",
+      "2": "Steer well clear."
+    }
+  },
+  "quote": {
+    "ripoff": {
+      "1": "I was quoted a crazy amount for my {model}. Daylight robbery!",
+      "2": "Absurd quote: at {shop} they think customers are ATMs."
+    }
+  },
+  "fail": {
+    "never_ready": {
+      "1": "My {model} wasn't ready when it should have been. I took it back still broken.",
+      "2": "Broken promises: I came back at the agreed time and the phone was still in pieces."
+    }
+  }
+}

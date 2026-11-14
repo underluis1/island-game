@@ -1,0 +1,52 @@
+{
+ "speaker": {
+  "somchai": "Lung Somchai",
+  "noi": "Noi",
+  "chai": "Mr. Chai"
+ },
+ "intro": {
+  "1": "{{Sawasdee krub|ciao}}! Eccoti finalmente. Io sono Somchai, ma qui tutti mi chiamano Lung — \"zio\".",
+  "2": "Trent'anni a riparare telefoni su questa spiaggia. Adesso le mie mani tremano un po'… e l'amaca mi chiama. La bancarella è tua.",
+  "3": "Non hai molto: un tappetino, un cacciavite economico, una ventosa. Ma con la testa giusta bastano. {{Mai pen rai|nessun problema}}!",
+  "4": "Prima di toccare il telefono di un cliente, smontiamo insieme questo vecchio Fone 8. È un relitto: se sbagli, non piange nessuno.",
+  "5": "Clicca sul tappetino da lavoro per sederti al banco. Io ti guido passo passo."
+ },
+ "lesson": {
+  "power_off": "Regola numero uno: si spegne SEMPRE prima di aprire. Un telefono acceso è un telefono che può friggere.",
+  "unscrew": "Vedi le due vitine accanto alla porta di ricarica? Sono pentalobe, a cinque punte: serve la punta P2. Seleziona il cacciavite e tieni premuto sulla vite.",
+  "place_screw": "Ogni vite ha la sua casa. Posala sul tappetino magnetico, una cella per ogni gruppo: tra poco capirai perché è una questione di vita o di morte.",
+  "heat": "Il display è incollato. A freddo si spacca: scalda i bordi finché l'adesivo si ammorbidisce. Guarda la barra: troppo poco non cede, troppo cuoci lo schermo.",
+  "suction": "Ora la ventosa: premi sul vetro e tira su piano. Senti il 'pop'? Si è aperta una fessura.",
+  "cut": "Infila il plettro e trascinalo lungo tutto il bordo: la striscia arancione diventa verde dove hai tagliato. Dove è rossa resta vicino al bordo: lì sotto passano i flat, i cavi piatti. Tagliane uno e il display è da buttare.",
+  "open": "Ora prendi la Mano (tasto 1) e clicca sul display: si apre come un libro, dal lato giusto. Mai strappare: è ancora attaccato dai suoi cavi.",
+  "disconnect_battery": "Fermo! Prima di toccare qualsiasi connettore, si scollega la BATTERIA. Togli la staffa e usa lo spudger di plastica — mai metallo. Senza corrente, niente scintille.",
+  "disconnect": "Bravo. Ora gli altri connettori: una leggera leva e fanno 'click'. Sono delicati come ali di farfalla.",
+  "remove": "Quando un pezzo è libero da viti, staffe e connettori, lo sollevi con le pinzette e lo posi sul tappetino. Resta dove lo lasci.",
+  "pull_tab": "La batteria è tenuta da linguette adesive elastiche. Si tirano piano, basse e costanti. Se strappi, si spezzano — e allora servono alcol e tanta pazienza.",
+  "pry_pad": "Questo pezzo è solo incollato leggermente: fai leva piano con lo spudger.",
+  "teardown_done": "Guarda che spettacolo: un telefono intero, pezzo per pezzo. Ogni componente che smonti finisce nella tua enciclopedia. Adesso viene il difficile: rimontarlo!",
+  "install": "Si rimonta al contrario: prima quello che sta sotto. Clicca un pezzo sul tappetino per rimetterlo al suo posto.",
+  "pick_screw": "Adesso capisci il tappetino. Le viti NON sono tutte uguali: una vite lunga nel foro di una corta buca la scheda sotto. Si chiama 'long screw damage' e ha ucciso più telefoni dell'acqua di mare.",
+  "screw_in": "Tieni premuto per stringere e lascia quando l'ago è nel verde. Poco: la vite balla. Troppo: la spani, e io ti guardo male dall'amaca.",
+  "connect": "I connettori si premono finché fanno click. Tutti, tranne uno che aspetta…",
+  "connect_battery": "…la batteria. Sempre per ultima, così nulla è sotto tensione mentre lavori. Prima a uscire, ultima a rientrare.",
+  "close": "Chiudi il display e rimetti le due pentalobe. Poi accendi.",
+  "done": "Ora il test finale: ogni funzione va provata prima di ridare il telefono. Premi 'Test finale'."
+ },
+ "after_test": {
+  "1": "Funziona tutto! Hai le mani buone, {{nong|ragazzo}}. Meglio delle mie a vent'anni… quasi.",
+  "2": "Guarda, arriva Noi dal bar qui accanto. Il suo telefono non arriva a sera. Ascolta il cliente, fai la diagnosi, proponi un prezzo onesto.",
+  "3": "Tieni, una batteria nuova: te la regalo io per il primo lavoro. Le prossime le ordini a Mr. Chai, che arriva in barca ogni mattina."
+ },
+ "first_customer": {
+  "counter": "Clicca sul cliente per sentire cosa vuole.",
+  "accepted": "Ordine preso! Il telefono è sul banco: clicca sul tappetino per iniziare. Ti serve solo cambiare la batteria: segui la guida.",
+  "delivered": "La prima recensione! Le stelle portano clienti, i clienti portano baht."
+ },
+ "first_purchase": {
+  "1": "Con i primi guadagni comprati uno strumento migliore. Apri il tablet (Tab) e guarda il catalogo.",
+  "done": "Ottima scelta. Ogni strumento ti cambia il lavoro: meno errori, più velocità, riparazioni nuove.",
+  "bye": "Io vado sull'amaca. Se resti senza soldi, sai dove trovarmi… {{Chok dee|buona fortuna}}!"
+ },
+ "skip": "Salta il tutorial"
+}

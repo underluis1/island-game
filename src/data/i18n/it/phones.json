@@ -1,0 +1,20 @@
+{
+  "brand": "Pear",
+  "os": "PearOS",
+  "fone8": {
+    "name": "Pear Fone 8",
+    "desc": "Il classico con il tasto Home: schermo LCD che si apre a libro di lato, viti Phillips e Tri-point. Perfetto per imparare."
+  },
+  "fonex": {
+    "name": "Pear Fone X",
+    "desc": "Il primo con la tacca: schermo OLED, riconoscimento del volto e scheda logica «a sandwich», delicatissima."
+  },
+  "fone12": {
+    "name": "Pear Fone 12",
+    "desc": "Bordi piatti e adesivo tenace: serve più calore per aprirlo, e fotocamera e batteria sono accoppiate alla scheda."
+  },
+  "fone14": {
+    "name": "Pear Fone 14",
+    "desc": "Il più recente: il vetro posteriore si rimuove, quindi molti lavori si fanno aprendolo dal retro."
+  }
+}

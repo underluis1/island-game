@@ -1,0 +1,149 @@
+{
+  "open": {
+    "s5": {
+      "1": "Il mio {model} è tornato come nuovo!",
+      "2": "Da {shop} mi hanno salvato la vacanza.",
+      "3": "Riparazione perfetta, non potevo chiedere di meglio."
+    },
+    "s4": {
+      "1": "Bel lavoro sul mio {model}.",
+      "2": "Tutto funziona di nuovo, sono soddisfatto.",
+      "3": "{shop} è una piccola bancarella seria."
+    },
+    "s3": {
+      "1": "Riparazione nella media.",
+      "2": "Il telefono va, ma non è stato tutto liscio.",
+      "3": "Niente di speciale, ma il {model} funziona."
+    },
+    "s2": {
+      "1": "Mi aspettavo di più.",
+      "2": "Esperienza deludente con il mio {model}.",
+      "3": "Qualcosa è andato storto."
+    },
+    "s1": {
+      "1": "Da evitare.",
+      "2": "Pessima esperienza da {shop}.",
+      "3": "Il mio {model} stava meglio prima."
+    }
+  },
+  "fact": {
+    "partial": {
+      "1": "Il problema è risolto solo a metà.",
+      "2": "Una cosa l'ha sistemata, l'altra è rimasta com'era."
+    },
+    "not_fixed": {
+      "1": "Il guasto è esattamente dov'era prima.",
+      "2": "Me l'ha ridato rotto come gliel'avevo portato."
+    },
+    "new_broken": {
+      "1": "In compenso adesso non funziona più una cosa che prima andava.",
+      "2": "È uscito dal banco con un guasto nuovo di zecca."
+    },
+    "pairing": {
+      "1": "Dopo la riparazione ho perso una funzione che prima avevo, e nessuno mi aveva avvisato.",
+      "2": "Lo sblocco e i colori dello schermo non sono più quelli di una volta."
+    },
+    "screws": {
+      "1": "Scuotendolo si sente qualcosa che balla: mancano delle viti.",
+      "2": "La scocca scricchiola, secondo me ha dimenticato qualche vite."
+    },
+    "leftover": {
+      "1": "Sul banco era rimasto un pezzo del mio telefono. Sul banco!",
+      "2": "Gli è «avanzato» un componente. Non è un mobile svedese."
+    },
+    "not_closed": {
+      "1": "Me l'ha riconsegnato ancora aperto.",
+      "2": "Lo schermo non era nemmeno richiuso."
+    },
+    "seal_lost": {
+      "1": "Mi ha avvisato che non è più resistente all'acqua: peccato.",
+      "2": "Senza guarnizione nuova, addio impermeabilità."
+    },
+    "seal_kept": {
+      "1": "Ha rimesso anche la guarnizione nuova: di nuovo a prova di schizzi.",
+      "2": "Sigillato a regola d'arte, perfetto per la barca."
+    },
+    "clean": {
+      "1": "Me l'ha restituito pulitissimo, senza un granello di sabbia.",
+      "2": "L'ha pure pulito dentro e fuori. Un signore."
+    },
+    "cheap_part": {
+      "1": "Il ricambio però si vede che è economico.",
+      "2": "Il pezzo nuovo non è della stessa qualità dell'originale, e si nota."
+    },
+    "premium_part": {
+      "1": "Ha montato un ricambio originale ricondizionato: qualità top.",
+      "2": "Ricambi di prima scelta, si sente la differenza."
+    },
+    "fast": {
+      "1": "Velocissimo, era pronto molto prima del previsto.",
+      "2": "Neanche il tempo di finire il cocco ed era già fatto."
+    },
+    "late": {
+      "1": "Ho dovuto aspettare più di quanto promesso.",
+      "2": "Puntualità da rivedere: non era pronto all'ora concordata."
+    },
+    "price_low": {
+      "1": "E a un prezzo davvero onesto.",
+      "2": "Ho speso molto meno di quanto temevo."
+    },
+    "price_fair": {
+      "1": "Prezzo giusto.",
+      "2": "Il conto è stato corretto, niente sorprese."
+    },
+    "price_high": {
+      "1": "Un po' caro per quello che ha fatto.",
+      "2": "Il prezzo era decisamente da turista."
+    },
+    "mistakes": {
+      "1": "L'ho visto pasticciare parecchio mentre lavorava.",
+      "2": "Qualche imprecazione di troppo durante lo smontaggio."
+    },
+    "expert": {
+      "1": "Si vede che sa il fatto suo: lavorava a memoria, senza guardare nessuna guida.",
+      "2": "Mani da vero esperto, ipnotico da guardare."
+    },
+    "misdiagnosis": {
+      "1": "All'inizio mi aveva detto che il problema era un altro.",
+      "2": "La diagnosi iniziale era sbagliata."
+    },
+    "atmosphere": {
+      "1": "Il posto poi è una meraviglia, ci tornerei solo per l'atmosfera.",
+      "2": "Bancarella curatissima davanti al mare."
+    }
+  },
+  "close": {
+    "s5": {
+      "1": "Consigliatissimo!",
+      "2": "Cinque stelle meritate."
+    },
+    "s4": {
+      "1": "Lo consiglio.",
+      "2": "Ci tornerei."
+    },
+    "s3": {
+      "1": "Può migliorare.",
+      "2": "Senza infamia e senza lode."
+    },
+    "s2": {
+      "1": "Non credo che tornerò.",
+      "2": "Peccato."
+    },
+    "s1": {
+      "1": "Mai più.",
+      "2": "Statene alla larga."
+    }
+  },
+  "quote": {
+    "ripoff": {
+      "1": "Mi ha chiesto una cifra folle per il mio {model}. Prezzi da rapina!",
+      "2": "Preventivo assurdo: da {shop} pensano che i clienti siano bancomat."
+    }
+  },
+  "fail": {
+    "never_ready": {
+      "1": "Il mio {model} non era pronto quando doveva. Me lo sono ripreso ancora rotto.",
+      "2": "Promesse non mantenute: sono tornato all'ora stabilita e il telefono era ancora a pezzi."
+    }
+  }
+}

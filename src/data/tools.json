@@ -1,0 +1,85 @@
+[
+  { "id": "driver", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 650, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 2400, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "spudger", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 380, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 1500, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "pick", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "suction", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 420, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 1600, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "tweezers", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 450, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 1700, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "heat", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1200, "minStage": 1, "minReputation": 1.2 },
+    { "tier": 3, "price": 4800, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "brush", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 300, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "toothpick", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "ipa", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 250, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "air", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 350, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1400, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "card", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 120, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "adhesive", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 600, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 2200, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "extractor", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 400, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "flashlight", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 200, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "esd", "category": "hand", "start": 0, "tiers": [
+    { "tier": 1, "price": 500, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1800, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "mat", "category": "hand", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 700, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 2000, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "multimeter", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 450, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 5200, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "battester", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 900, "minStage": 1, "minReputation": 1.5 } ] },
+  { "id": "programmer", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 3800, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "ultrasonic", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 5500, "minStage": 2, "minReputation": 2.8 } ] },
+  { "id": "solder", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 6500, "minStage": 3, "minReputation": 3 },
+    { "tier": 2, "price": 14000, "minStage": 3, "minReputation": 3.5 } ] },
+  { "id": "microscope", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 12000, "minStage": 3, "minReputation": 3 } ] },
+  { "id": "separator", "category": "bench", "start": 0, "tiers": [
+    { "tier": 1, "price": 16000, "minStage": 3, "minReputation": 3.5 } ] },
+  { "id": "chair", "category": "comfort", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 900, "minStage": 1, "minReputation": 0 },
+    { "tier": 3, "price": 3500, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "fan", "category": "comfort", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 7500, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "lamp", "category": "comfort", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1100, "minStage": 1, "minReputation": 0 } ] },
+  { "id": "lights", "category": "comfort", "start": 0, "tiers": [
+    { "tier": 1, "price": 500, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1800, "minStage": 2, "minReputation": 2 } ] },
+  { "id": "rack", "category": "comfort", "start": 1, "tiers": [
+    { "tier": 1, "price": 0, "minStage": 1, "minReputation": 0 },
+    { "tier": 2, "price": 1500, "minStage": 1, "minReputation": 1.5 },
+    { "tier": 3, "price": 5000, "minStage": 2, "minReputation": 2.5 } ] },
+  { "id": "shelf", "category": "comfort", "start": 0, "tiers": [
+    { "tier": 1, "price": 1300, "minStage": 1, "minReputation": 1.5 } ] }
+]

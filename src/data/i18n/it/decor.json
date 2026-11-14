@@ -1,0 +1,162 @@
+{
+  "items": {
+    "plant_monstera": {
+      "name": "Monstera",
+      "desc": "Foglie bucate, zero pensieri. Ama l'ombra del tendone."
+    },
+    "plant_banana": {
+      "name": "Banano in vaso",
+      "desc": "Fa ombra, fa giungla e ogni tanto fa pure le banane."
+    },
+    "plant_palm": {
+      "name": "Palma in vaso",
+      "desc": "Una mini palma: tropici formato tascabile."
+    },
+    "plant_orchid": {
+      "name": "Orchidea",
+      "desc": "Elegante e un po' diva. Sta benissimo accanto alla cassa."
+    },
+    "plant_frangipani": {
+      "name": "Frangipani",
+      "desc": "Il profumo dell'isola. I fiori caduti sono compresi nel prezzo."
+    },
+    "plant_fern": {
+      "name": "Felce appesa",
+      "desc": "Una cascata verde in un guscio di cocco."
+    },
+    "lantern_paper": {
+      "name": "Lanterna di carta",
+      "desc": "Luce calda color corallo, accesa al tramonto."
+    },
+    "lantern_bamboo": {
+      "name": "Lanterna di bambù",
+      "desc": "Carta di riso e bambù: la sera fa subito atmosfera."
+    },
+    "string_lights": {
+      "name": "Tenda di lucine",
+      "desc": "Una pioggia di lampadine colorate. Più lucine, più clienti."
+    },
+    "tiki_torch": {
+      "name": "Torcia tiki",
+      "desc": "Fiamma vera (più o meno). Tiene lontane le zanzare, dicono."
+    },
+    "candle_coconut": {
+      "name": "Candela nel cocco",
+      "desc": "Mezza noce di cocco, una fiammella, zero sprechi."
+    },
+    "surfboard_stand": {
+      "name": "Tavola da surf",
+      "desc": "Piantata nella sabbia. Le onde, qui, sono un optional."
+    },
+    "surfboard_wall": {
+      "name": "Tavola da surf a parete",
+      "desc": "Gialla come il sole, appesa come un trofeo."
+    },
+    "shell_giant": {
+      "name": "Conchiglia gigante",
+      "desc": "Avvicina l'orecchio: si sente il mare. O un cliente."
+    },
+    "starfish": {
+      "name": "Stella marina",
+      "desc": "Cinque braccia e nessuna voglia di lavorare."
+    },
+    "fishing_net": {
+      "name": "Rete da pesca",
+      "desc": "Con boe di vetro e galleggianti. Pesca solo complimenti."
+    },
+    "beach_umbrella": {
+      "name": "Ombrellone",
+      "desc": "Ombra a spicchi gialli per clienti in attesa."
+    },
+    "deck_chair": {
+      "name": "Sedia a sdraio",
+      "desc": "Chi aspetta il telefono, almeno aspetta comodo."
+    },
+    "hammock": {
+      "name": "Amaca",
+      "desc": "Pausa pranzo sospesa. Attenzione: crea dipendenza."
+    },
+    "coconut_crate": {
+      "name": "Cassa di noci di cocco",
+      "desc": "Fresche di palma. Una ha già la cannuccia."
+    },
+    "barrel_table": {
+      "name": "Bidone-tavolino",
+      "desc": "Un vecchio fusto, due sgabelli e un drink: ecco la sala d'attesa."
+    },
+    "neon_open": {
+      "name": "Neon \"OPEN\"",
+      "desc": "Rosa acceso: si vede fin dal molo."
+    },
+    "neon_phone": {
+      "name": "Neon telefono",
+      "desc": "Un telefono, una saetta: il messaggio è chiaro."
+    },
+    "neon_palm": {
+      "name": "Neon palma",
+      "desc": "Tramonto tropicale a 12 volt."
+    },
+    "sign_arrows": {
+      "name": "Palo delle frecce",
+      "desc": "Spiaggia di qua, traghetto di là, casa... lontanissimo."
+    },
+    "rug_woven": {
+      "name": "Tappeto intrecciato",
+      "desc": "Fatto a mano, pieno di colore, ottimo contro la sabbia rovente."
+    },
+    "rug_round": {
+      "name": "Tappeto tondo di juta",
+      "desc": "Treccia su treccia, come un sole steso a terra."
+    },
+    "fountain": {
+      "name": "Fontanella",
+      "desc": "Acqua che scorre, ninfee che girano, clienti che si rilassano."
+    },
+    "aquarium": {
+      "name": "Acquario",
+      "desc": "Sei pesci tropicali che non rompono mai il telefono."
+    },
+    "parrot_perch": {
+      "name": "Pappagallo sul trespolo",
+      "desc": "Si chiama Mango. Sa dire \"sawasdee\" e \"è in garanzia?\"."
+    },
+    "poster_sunset": {
+      "name": "Poster \"Tramonto\"",
+      "desc": "Koh Phi Phi in versione retrò, sole a strisce incluso."
+    },
+    "poster_longtail": {
+      "name": "Poster \"Island Life\"",
+      "desc": "Una long-tail, le falesie e tutta la calma del mondo."
+    },
+    "poster_repair": {
+      "name": "Poster \"Fix it!\"",
+      "desc": "Non buttarlo: aggiustalo! Il nostro motto, in formato A2."
+    },
+    "spirit_house": {
+      "name": "Casetta degli spiriti",
+      "desc": "San phra phum: gli spiriti del posto apprezzano le offerte (e l'aranciata rossa)."
+    },
+    "lucky_cat": {
+      "name": "Gatto portafortuna",
+      "desc": "Saluta i clienti tutto il giorno senza chiedere la mancia."
+    },
+    "phuang_malai": {
+      "name": "Ghirlanda phuang malai",
+      "desc": "Gelsomino e rose: porta fortuna e profuma il banco."
+    },
+    "wind_chimes": {
+      "name": "Campane a vento",
+      "desc": "Quando soffia la brezza, il negozio suona."
+    }
+  },
+  "categories": {
+    "plants": "Piante",
+    "lights": "Luci",
+    "beach": "Spiaggia",
+    "signs": "Insegne",
+    "furniture": "Arredo",
+    "animals": "Animali",
+    "art": "Arte",
+    "luck": "Portafortuna"
+  }
+}

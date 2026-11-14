@@ -1,0 +1,162 @@
+{
+  "items": {
+    "plant_monstera": {
+      "name": "Monstera",
+      "desc": "Holey leaves, zero worries. Loves the shade of the awning."
+    },
+    "plant_banana": {
+      "name": "Potted banana tree",
+      "desc": "Gives shade, jungle vibes and, now and then, bananas."
+    },
+    "plant_palm": {
+      "name": "Potted palm",
+      "desc": "A mini palm: the tropics, pocket-sized."
+    },
+    "plant_orchid": {
+      "name": "Orchid",
+      "desc": "Elegant and a bit of a diva. Looks great by the till."
+    },
+    "plant_frangipani": {
+      "name": "Frangipani",
+      "desc": "The scent of the island. Fallen flowers included."
+    },
+    "plant_fern": {
+      "name": "Hanging fern",
+      "desc": "A green waterfall in a coconut shell."
+    },
+    "lantern_paper": {
+      "name": "Paper lantern",
+      "desc": "Warm coral glow, lit at sunset."
+    },
+    "lantern_bamboo": {
+      "name": "Bamboo lantern",
+      "desc": "Rice paper and bamboo: instant evening mood."
+    },
+    "string_lights": {
+      "name": "Fairy light curtain",
+      "desc": "A rain of coloured bulbs. More lights, more customers."
+    },
+    "tiki_torch": {
+      "name": "Tiki torch",
+      "desc": "Real flame (sort of). Keeps mosquitoes away, they say."
+    },
+    "candle_coconut": {
+      "name": "Coconut candle",
+      "desc": "Half a coconut, one tiny flame, zero waste."
+    },
+    "surfboard_stand": {
+      "name": "Surfboard",
+      "desc": "Stuck in the sand. Waves are optional around here."
+    },
+    "surfboard_wall": {
+      "name": "Wall surfboard",
+      "desc": "Sunny yellow, hung up like a trophy."
+    },
+    "shell_giant": {
+      "name": "Giant conch",
+      "desc": "Put your ear to it: you'll hear the sea. Or a customer."
+    },
+    "starfish": {
+      "name": "Starfish",
+      "desc": "Five arms and no will to work."
+    },
+    "fishing_net": {
+      "name": "Fishing net",
+      "desc": "With glass floats and corks. Only catches compliments."
+    },
+    "beach_umbrella": {
+      "name": "Beach umbrella",
+      "desc": "Yellow-striped shade for waiting customers."
+    },
+    "deck_chair": {
+      "name": "Deck chair",
+      "desc": "If they must wait for their phone, let them wait in comfort."
+    },
+    "hammock": {
+      "name": "Hammock",
+      "desc": "A suspended lunch break. Warning: addictive."
+    },
+    "coconut_crate": {
+      "name": "Crate of coconuts",
+      "desc": "Fresh off the palm. One already has a straw."
+    },
+    "barrel_table": {
+      "name": "Barrel table",
+      "desc": "An old drum, two stools and a drink: your waiting room."
+    },
+    "neon_open": {
+      "name": "\"OPEN\" neon",
+      "desc": "Hot pink: visible all the way from the pier."
+    },
+    "neon_phone": {
+      "name": "Phone neon",
+      "desc": "A phone, a lightning bolt: message received."
+    },
+    "neon_palm": {
+      "name": "Palm neon",
+      "desc": "A tropical sunset at 12 volts."
+    },
+    "sign_arrows": {
+      "name": "Signpost",
+      "desc": "Beach this way, ferry that way, home... very far."
+    },
+    "rug_woven": {
+      "name": "Woven rug",
+      "desc": "Handmade, colourful, great against scorching sand."
+    },
+    "rug_round": {
+      "name": "Round jute rug",
+      "desc": "Braid after braid, like a sun lying on the floor."
+    },
+    "fountain": {
+      "name": "Fountain",
+      "desc": "Running water, drifting lilies, relaxed customers."
+    },
+    "aquarium": {
+      "name": "Aquarium",
+      "desc": "Six tropical fish that never break their phones."
+    },
+    "parrot_perch": {
+      "name": "Parrot on a perch",
+      "desc": "His name is Mango. He can say \"sawasdee\" and \"is it under warranty?\"."
+    },
+    "poster_sunset": {
+      "name": "\"Sunset\" poster",
+      "desc": "Retro Koh Phi Phi, striped sun included."
+    },
+    "poster_longtail": {
+      "name": "\"Island Life\" poster",
+      "desc": "A longtail boat, the cliffs and all the calm in the world."
+    },
+    "poster_repair": {
+      "name": "\"Fix it!\" poster",
+      "desc": "Don't ditch it: fix it! Our motto, in A2 size."
+    },
+    "spirit_house": {
+      "name": "Spirit house",
+      "desc": "San phra phum: the local spirits appreciate offerings (and red soda)."
+    },
+    "lucky_cat": {
+      "name": "Lucky cat",
+      "desc": "Waves at customers all day and never asks for a tip."
+    },
+    "phuang_malai": {
+      "name": "Phuang malai garland",
+      "desc": "Jasmine and roses: brings luck and scents the counter."
+    },
+    "wind_chimes": {
+      "name": "Wind chimes",
+      "desc": "When the breeze blows, the shop sings."
+    }
+  },
+  "categories": {
+    "plants": "Plants",
+    "lights": "Lights",
+    "beach": "Beach",
+    "signs": "Signs",
+    "furniture": "Furniture",
+    "animals": "Animals",
+    "art": "Art",
+    "luck": "Lucky charms"
+  }
+}

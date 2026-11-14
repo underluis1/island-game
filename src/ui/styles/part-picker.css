@@ -1,0 +1,179 @@
+/* Replacement part picker — modal with three quality cards. */
+.panel.part-picker {
+  width: min(52rem, 94vw);
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.pp-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr));
+  gap: var(--s-3);
+  padding: var(--s-3) var(--s-5) var(--s-4);
+  overflow-y: auto;
+}
+.pp-card {
+  --gc: var(--c-teal);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  padding: 1rem 0.9rem 0.9rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 0 0 1px var(--c-line), inset 0 0.3rem 0 var(--gc), 0 0.2rem 0.6rem rgba(107, 66, 41, 0.1);
+  transition: transform var(--d-med) var(--e-out), box-shadow var(--d-med);
+  animation: slide-up var(--d-slow) var(--e-out) both;
+}
+.pp-card:nth-child(2) { animation-delay: 60ms; }
+.pp-card:nth-child(3) { animation-delay: 120ms; }
+.pp-card:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: inset 0 0 0 1px var(--c-line-2), inset 0 0.3rem 0 var(--gc), 0 0.6rem 1.4rem rgba(107, 66, 41, 0.2);
+}
+.pp-card.is-cheap { --gc: var(--c-wood-l); }
+.pp-card.is-good { --gc: var(--c-teal); }
+.pp-card.is-refurb { --gc: var(--c-gold); }
+.pp-card.is-missing { background: rgba(255, 255, 255, 0.4); }
+.pp-card.is-rec { box-shadow: inset 0 0 0 0.14rem var(--gc), inset 0 0.3rem 0 var(--gc), 0 0.4rem 1rem rgba(107, 66, 41, 0.16); }
+.pp-rec {
+  position: absolute;
+  top: -0.55rem;
+  right: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.12em 0.6em;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  color: #5a3806;
+  background: var(--c-gold);
+  box-shadow: 0 0.12rem 0 var(--c-gold-dd);
+}
+.pp-rec .ic { font-size: 1em; }
+.pp-grade {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.pp-grade .pips { font-size: 1.1rem; color: var(--c-wood-l); }
+.pp-name {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  line-height: 1.15;
+  color: var(--c-night);
+}
+.pp-note {
+  font-size: var(--fs-sm);
+  line-height: 1.3;
+  color: var(--c-ink-2);
+  min-height: 2.6em;
+}
+.pp-stats {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+  margin: 0;
+  padding: 0.55rem 0.6rem;
+  border-radius: var(--r-sm);
+  background: rgba(138, 90, 60, 0.07);
+}
+.pp-stats dt {
+  font-size: var(--fs-xs);
+  font-weight: 750;
+  color: var(--c-ink-2);
+}
+.pp-stats dd {
+  margin: 0;
+  justify-self: end;
+  text-align: right;
+}
+.pp-price {
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  color: var(--c-night);
+}
+.pp-risk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+}
+.pp-risk-bar {
+  width: 5.5rem;
+  height: 0.4rem;
+  border-radius: var(--r-pill);
+  background: rgba(107, 66, 41, 0.18);
+  overflow: hidden;
+}
+.pp-risk-bar i {
+  display: block;
+  height: 100%;
+  width: max(8%, calc(var(--v) * 100%));
+  border-radius: inherit;
+  background: var(--tone);
+}
+.pp-risk-text {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  color: var(--tone-fg);
+  white-space: nowrap;
+}
+.pp-actions {
+  margin-top: auto;
+  padding-top: var(--s-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.pp-actions .btn-label { white-space: nowrap; }
+.pp-incoming {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: var(--fs-xs);
+  font-weight: 750;
+  color: #1d5a8f;
+}
+.pp-foot {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  padding: var(--s-3) var(--s-5) var(--s-4);
+  background: linear-gradient(180deg, rgba(226, 196, 143, 0.35), rgba(226, 196, 143, 0.55));
+  box-shadow: inset 0 1px 0 var(--c-line-2);
+}
+.pp-pairing {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+.pp-pairing-ic {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  color: #fff;
+  background: var(--c-warn);
+  flex: none;
+}
+.pp-pairing.is-ok .pp-pairing-ic { background: var(--c-green); }
+.pp-pairing-title {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c-wood);
+}
+.pp-pairing-text {
+  font-size: var(--fs-sm);
+  font-weight: 650;
+  line-height: 1.3;
+}

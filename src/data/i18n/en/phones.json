@@ -1,0 +1,20 @@
+{
+  "brand": "Pear",
+  "os": "PearOS",
+  "fone8": {
+    "name": "Pear Fone 8",
+    "desc": "The classic with the Home button: an LCD screen that opens sideways like a book, Phillips and Tri-point screws. Perfect for learning."
+  },
+  "fonex": {
+    "name": "Pear Fone X",
+    "desc": "The first one with the notch: OLED screen, face recognition and a very delicate “sandwich” logic board."
+  },
+  "fone12": {
+    "name": "Pear Fone 12",
+    "desc": "Flat edges and stubborn adhesive: it takes more heat to open, and the camera and battery are paired to the board."
+  },
+  "fone14": {
+    "name": "Pear Fone 14",
+    "desc": "The latest: the back glass comes off, so many jobs are done by opening it from the rear."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "kind": {
+    "tourist": "Turista",
+    "local": "Abitante dell'isola",
+    "diver": "Sub",
+    "backpacker": "Backpacker",
+    "business": "Uomo d'affari"
+  },
+  "urgency": {
+    "normal": "Ritiro domani",
+    "today": "Entro il tramonto",
+    "wait": "Aspetta qui"
+  },
+  "tourist": {
+    "greet1": "Ciao! Mi hanno detto che qui aggiusti i telefoni.",
+    "greet2": "Sawasdee! Spero tu possa salvarmi la vacanza.",
+    "accept1": "{price} ฿? Affare fatto.",
+    "accept2": "Va bene, {price} ฿. Basta che torni a funzionare!",
+    "counter1": "Mmh, un po' tanto… facciamo {price} ฿?",
+    "refuse1": "No guarda, a quel prezzo me lo tengo rotto.",
+    "pickup1": "Eccomi! È pronto il mio telefono?",
+    "thanks1": "Fantastico, grazie mille! Khop khun!"
+  },
+  "local": {
+    "greet1": "Sawasdee! Tu sei quello nuovo al posto di Lung Somchai?",
+    "greet2": "Ciao nong, ho un lavoretto per te.",
+    "accept1": "{price} ฿, va bene. Somchai faceva gli stessi prezzi.",
+    "accept2": "D'accordo, {price} ฿. Mi fido.",
+    "counter1": "Per noi dell'isola fai {price} ฿, dai.",
+    "refuse1": "Troppo caro. Aspetto di andare a Phuket.",
+    "pickup1": "Sono tornato per il telefono, è a posto?",
+    "thanks1": "Bravo! Lo dirò a tutti al mercato."
+  },
+  "diver": {
+    "greet1": "Ehi! Ho un telefono che ha visto più mare di me.",
+    "greet2": "Ciao! Piccolo incidente in barca…",
+    "accept1": "{price} ฿? Ok, costa meno di una bombola.",
+    "accept2": "Va bene {price} ฿, basta che torni a galla.",
+    "counter1": "Facciamo {price} ฿ e ti porto a vedere gli squali leopardo?",
+    "refuse1": "A quel prezzo lo uso come zavorra.",
+    "pickup1": "Riemerso! Com'è andata con il telefono?",
+    "thanks1": "Grande! Prometto di usare la custodia stagna. Forse."
+  },
+  "backpacker": {
+    "greet1": "Ciao… dimmi che costa poco, ti prego.",
+    "greet2": "Hey! Ho un telefono messo male e un budget messo peggio.",
+    "accept1": "{price} ฿… ok, stasera salto la cena.",
+    "accept2": "Va bene, {price} ฿. Mi serve per le mappe!",
+    "counter1": "Ho solo {price} ฿ fino al prossimo bancomat…",
+    "refuse1": "Impossibile, è il budget di tre giorni di ostello.",
+    "pickup1": "Sono qui per il telefono! Funziona?",
+    "thanks1": "Sei un mito! Ti lascio cinque stelle appena trovo il Wi-Fi."
+  },
+  "business": {
+    "greet1": "Buongiorno. Ho poco tempo e un telefono fuori uso.",
+    "greet2": "Salve. Mi serve una riparazione fatta bene, e subito.",
+    "accept1": "{price} ฿. Proceda pure.",
+    "accept2": "Va bene, {price} ฿. Mi faccia la ricevuta.",
+    "counter1": "Le offro {price} ฿. Prendere o lasciare.",
+    "refuse1": "Fuori discussione. Buona giornata.",
+    "pickup1": "Sono qui per il ritiro. Mi auguro sia tutto in ordine.",
+    "thanks1": "Ottimo lavoro. La consiglierò ai colleghi."
+  },
+  "any": {
+    "urgent_today1": "Mi serve entro il tramonto, ho il traghetto!",
+    "urgent_today2": "Parto stasera: ce la fai per le sei?",
+    "urgent_wait1": "Posso aspettare qui? Senza telefono mi sento perso.",
+    "urgent_wait2": "Mi siedo all'ombra e aspetto, se non ci metti troppo.",
+    "urgent_normal1": "Nessuna fretta, passo domani.",
+    "urgent_normal2": "Te lo lascio, torno a prenderlo domani.",
+    "ripoff1": "Cosa?! Con quei soldi ne compro uno nuovo! Arrivederci.",
+    "ripoff2": "Questo è un furto. Lo scriverò dappertutto.",
+    "impatient1": "Va be', vedo che hai da fare. Ripasso un'altra volta.",
+    "impatient2": "Sto aspettando da un'eternità… me ne vado.",
+    "pickup_late1": "Come sarebbe «non è pronto»? Aspetto ancora un po', ma sbrigati.",
+    "pickup_late2": "Eravamo d'accordo per adesso… ti do qualche minuto.",
+    "angry1": "Roba da matti. Ridammi il telefono, me ne vado.",
+    "angry2": "Tempo perso. Non ci torno più.",
+    "no_tools1": "Ah, non hai l'attrezzatura giusta? Peccato, grazie lo stesso.",
+    "no_tools2": "Capisco. Grazie per la sincerità, proverò altrove.",
+    "rack_full1": "Sei pieno di lavoro, eh? Ripasso.",
+    "meh1": "Mah. Ecco {price} ฿. Diciamo che funziona.",
+    "meh2": "Non è proprio come speravo. Tieni, {price} ฿.",
+    "postpone1": "Va bene, torno domani. Ma che sia pronto davvero!"
+  },
+  "char": {
+    "noi": {
+      "name": "Noi",
+      "role": "Proprietaria del bar accanto",
+      "greet1": "Sawasdee kha! Ti ho portato un frullato di mango… e un telefono rotto.",
+      "greet2": "Vicino! Il telefono del bar fa di nuovo i capricci.",
+      "greet3": "Ciao tesoro, hai cinque minuti per la tua vicina preferita?",
+      "accept1": "{price} ฿? Va bene, e stasera la Chang la offro io.",
+      "pickup1": "Allora, il mio telefono è guarito?",
+      "thanks1": "Sei bravo quasi quanto Lung Somchai! Quasi.",
+      "thanks2": "Khop khun kha! Dico a tutti i clienti del bar di venire da te."
+    },
+    "kai": {
+      "name": "Kai",
+      "role": "Istruttore di sub",
+      "greet1": "Fratello! Non indovinerai mai cosa è successo… ok, sì: è caduto in acqua.",
+      "greet2": "Eccomi di nuovo. Il mare dà, il mare toglie. Stavolta ha tolto il telefono.",
+      "greet3": "Dodici metri di profondità. Dodici! E fa ancora una lucina.",
+      "accept1": "{price} ฿, andata. Ormai ti pago l'affitto io.",
+      "pickup1": "È vivo? Dimmi che è vivo.",
+      "thanks1": "Sei il mio eroe. Ci vediamo la settimana prossima, probabilmente.",
+      "thanks2": "Grande! Giuro che compro la custodia stagna. Giuro."
+    },
+    "matteo": {
+      "name": "Matteo",
+      "role": "Backpacker italiano",
+      "greet1": "Uè, ciao! Finalmente uno con cui parlare di cose serie. Tipo: mi si è rotto il telefono.",
+      "greet2": "Bella! Sono ancora qui, dovevo ripartire tre settimane fa. Guarda che disastro.",
+      "greet3": "Ciao capo! Mia mamma non mi sente da due giorni, sta per chiamare l'ambasciata.",
+      "accept1": "{price} ฿… mannaggia. Va bene, dai, vivrò di pad thai.",
+      "pickup1": "Allora dottore, il paziente come sta?",
+      "thanks1": "Grandissimo! Ti offro un caffè. Cioè, quando trovo un caffè vero.",
+      "thanks2": "Sei un fenomeno. Quasi quasi resto un altro mese."
+    },
+    "somchai": {
+      "name": "Lung Somchai",
+      "role": "Il tuo mentore"
+    },
+    "chai": {
+      "name": "Mr. Chai",
+      "role": "Fornitore di ricambi"
+    }
+  }
+}

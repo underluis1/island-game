@@ -1,0 +1,135 @@
+{
+  "currency": "฿ {amount}",
+  "err": {
+    "no_money": "Non hai abbastanza soldi.",
+    "need_stage": "Serve un negozio più grande.",
+    "need_reputation": "Serve più reputazione.",
+    "max_tier": "Hai già la versione migliore.",
+    "unknown_item": "Articolo non disponibile.",
+    "storage_full": "Il magazzino ricambi è pieno ({cap} posti).",
+    "need_tool": "Ti serve: {tool}.",
+    "no_scrap": "Non hai display rotti di questo modello da rigenerare.",
+    "separator_limit": "La separatrice ha già lavorato {n} volte oggi: deve raffreddarsi.",
+    "spot_taken": "Qui c'è già un altro oggetto.",
+    "bad_position": "Qui non si può mettere.",
+    "under_construction": "Il cantiere è già in corso: sarà pronto domattina.",
+    "already_owned": "Ce l'hai già.",
+    "rack_full": "Il portatelefoni è pieno.",
+    "on_bench": "Prima togli il telefono dal banco.",
+    "already_listed": "Questo telefono è già in vendita.",
+    "unknown_order": "Ordine non trovato.",
+    "not_ready": "Il telefono non è ancora segnato come pronto.",
+    "customer_away": "Il cliente non è ancora tornato a ritirarlo.",
+    "no_customer": "Non c'è nessuno al banco.",
+    "assistant_busy": "Ci sta lavorando l'assistente.",
+    "bench_busy": "Il banco è occupato: riponi prima l'altro telefono.",
+    "no_part": "Non hai questo ricambio a magazzino: {part}."
+  },
+  "stage": {
+    "1": "Bancarella",
+    "2": "Chiosco",
+    "3": "Negozio"
+  },
+  "upgrade": {
+    "stage2": {
+      "name": "Chiosco in legno e bambù",
+      "desc": "Tetto di paglia, bancone più grande, un secondo piano di lavoro e una vetrinetta di accessori che rende ogni giorno. I lavori durano una notte."
+    },
+    "stage3": {
+      "name": "Negozio sul mare",
+      "desc": "Vetrata, aria condizionata, banco di microsaldatura, magazzino e vetrina dei ricondizionati. Potrai assumere un assistente. I lavori durano una notte."
+    },
+    "assistant": {
+      "name": "Assistente",
+      "desc": "Ripara da solo gli ordini semplici in coda usando i ricambi a magazzino. Vuole lo stipendio ogni sera e non tocca il saldatore."
+    }
+  },
+  "income": {
+    "repairs": "Riparazioni",
+    "tips": "Mance",
+    "used": "Vendita usato",
+    "showcase": "Vetrina accessori",
+    "decor": "Decorazioni rivendute",
+    "loan": "Prestito di zio Somchai"
+  },
+  "expense": {
+    "parts": "Ricambi",
+    "tools": "Strumenti",
+    "decor": "Decorazioni",
+    "used": "Acquisti al mercatino",
+    "rent": "Affitto del posto",
+    "electricity": "Elettricità",
+    "wages": "Stipendio dell'assistente",
+    "stage": "Lavori di ampliamento",
+    "loan": "Rata a zio Somchai"
+  },
+  "summary": {
+    "title": "Resoconto del giorno {day}",
+    "income": "Entrate",
+    "expenses": "Uscite",
+    "net": "Risultato",
+    "money": "In cassa",
+    "jobs": "Riparazioni consegnate",
+    "failed": "Ordini persi",
+    "customers": "Clienti passati",
+    "reviews": "Recensioni di oggi",
+    "no_reviews": "Nessuna recensione oggi.",
+    "reputation": "Reputazione",
+    "chart": "Ultimi giorni",
+    "next_day": "Vai a dormire"
+  },
+  "loan": {
+    "title": "Zio Somchai ti dà una mano",
+    "line1": "Mai pen rai, nipote. Tieni {amount} ฿ e domani ricomincia: anche io il primo anno ero sempre in rosso.",
+    "line2": "Cassa vuota, eh? Ecco {amount} ฿. Me li ridarai un po' alla volta… e la gente intanto chiacchiera.",
+    "line3": "Un riparatore senza soldi è come una long-tail senza motore. Prendi {amount} ฿ e torna al banco."
+  },
+  "notify": {
+    "customer_arrived": "{name} è arrivato al banco.",
+    "customer_left_impatient": "{name} si è stancato di aspettare.",
+    "pickup_arrived": "{name} è tornato a ritirare il telefono.",
+    "order_overdue": "{name} sta aspettando: il telefono doveva essere pronto!",
+    "order_failed": "{name} se n'è andato furioso.",
+    "order_postponed": "{name} tornerà domani. Fatti trovare pronto.",
+    "delivery_boat": "La barca di Mr. Chai ha consegnato {n} ricambi.",
+    "delivery_express": "Consegna express: {n} ricambi arrivati.",
+    "used_sold": "Hai venduto un {model} usato per {price} ฿!",
+    "assistant_done": "L'assistente ha finito una riparazione.",
+    "assistant_stuck": "L'assistente non riesce a finire un lavoro: pensaci tu.",
+    "rain_start": "Arriva un acquazzone: meno gente in giro.",
+    "rain_stop": "È tornato il sole.",
+    "day_ending": "Tra poco si chiude.",
+    "stage_built": "I lavori sono finiti: benvenuto nel tuo nuovo {stage}!",
+    "review": "Nuova recensione: {stars} ★",
+    "tip": "Mancia: {tip} ฿"
+  },
+  "parts": {
+    "standard": "Con la barca di domattina",
+    "express": "Express (circa 2 ore)",
+    "in_stock": "A magazzino: {n}",
+    "incoming": "In arrivo: {n}",
+    "defect": "Rischio difetti: {pct}%"
+  },
+  "used": {
+    "title": "Mercatino dell'usato",
+    "seller": "Venduto da {name}",
+    "ask": "Prezzo di vendita stimato: {price} ฿",
+    "listed": "In vendita a {price} ฿",
+    "empty": "Oggi nessun annuncio interessante."
+  },
+  "quote": {
+    "fair": "Prezzo equo: {price} ฿",
+    "labor": "Manodopera",
+    "parts": "Ricambi",
+    "due": "Consegna"
+  },
+  "save": {
+    "empty": "Slot vuoto.",
+    "corrupt": "Questo salvataggio è danneggiato e non può essere caricato.",
+    "newer_version": "Questo salvataggio è stato creato con una versione più recente del gioco.",
+    "storage_failed": "Impossibile scrivere il salvataggio: lo spazio del browser è pieno o bloccato.",
+    "auto": "Salvataggio automatico",
+    "slot": "Slot {n}",
+    "meta": "Giorno {day} · {money} ฿ · {stars} ★"
+  }
+}

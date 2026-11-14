@@ -1,0 +1,520 @@
+[
+  {
+    "id": "plant_monstera",
+    "nameKey": "decor.items.plant_monstera.name",
+    "descKey": "decor.items.plant_monstera.desc",
+    "category": "plants",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 350,
+    "atmosphere": 4,
+    "stageMin": 1
+  },
+  {
+    "id": "plant_banana",
+    "nameKey": "decor.items.plant_banana.name",
+    "descKey": "decor.items.plant_banana.desc",
+    "category": "plants",
+    "placement": "ground",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 900,
+    "atmosphere": 7,
+    "stageMin": 1
+  },
+  {
+    "id": "plant_palm",
+    "nameKey": "decor.items.plant_palm.name",
+    "descKey": "decor.items.plant_palm.desc",
+    "category": "plants",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 600,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "plant_orchid",
+    "nameKey": "decor.items.plant_orchid.name",
+    "descKey": "decor.items.plant_orchid.desc",
+    "category": "plants",
+    "placement": "shelf",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 280,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "plant_frangipani",
+    "nameKey": "decor.items.plant_frangipani.name",
+    "descKey": "decor.items.plant_frangipani.desc",
+    "category": "plants",
+    "placement": "ground",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 1500,
+    "atmosphere": 9,
+    "stageMin": 2
+  },
+  {
+    "id": "plant_fern",
+    "nameKey": "decor.items.plant_fern.name",
+    "descKey": "decor.items.plant_fern.desc",
+    "category": "plants",
+    "placement": "hang",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 320,
+    "atmosphere": 4,
+    "stageMin": 1
+  },
+  {
+    "id": "lantern_paper",
+    "nameKey": "decor.items.lantern_paper.name",
+    "descKey": "decor.items.lantern_paper.desc",
+    "category": "lights",
+    "placement": "hang",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 180,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "lantern_bamboo",
+    "nameKey": "decor.items.lantern_bamboo.name",
+    "descKey": "decor.items.lantern_bamboo.desc",
+    "category": "lights",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 650,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "string_lights",
+    "nameKey": "decor.items.string_lights.name",
+    "descKey": "decor.items.string_lights.desc",
+    "category": "lights",
+    "placement": "hang",
+    "footprint": [
+      1,
+      0.5
+    ],
+    "price": 420,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "tiki_torch",
+    "nameKey": "decor.items.tiki_torch.name",
+    "descKey": "decor.items.tiki_torch.desc",
+    "category": "lights",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 380,
+    "atmosphere": 4,
+    "stageMin": 1
+  },
+  {
+    "id": "candle_coconut",
+    "nameKey": "decor.items.candle_coconut.name",
+    "descKey": "decor.items.candle_coconut.desc",
+    "category": "lights",
+    "placement": "shelf",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 90,
+    "atmosphere": 1,
+    "stageMin": 1
+  },
+  {
+    "id": "surfboard_stand",
+    "nameKey": "decor.items.surfboard_stand.name",
+    "descKey": "decor.items.surfboard_stand.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 1200,
+    "atmosphere": 6,
+    "stageMin": 1
+  },
+  {
+    "id": "surfboard_wall",
+    "nameKey": "decor.items.surfboard_wall.name",
+    "descKey": "decor.items.surfboard_wall.desc",
+    "category": "beach",
+    "placement": "wall",
+    "footprint": [
+      2,
+      0.5
+    ],
+    "price": 1100,
+    "atmosphere": 6,
+    "stageMin": 2
+  },
+  {
+    "id": "shell_giant",
+    "nameKey": "decor.items.shell_giant.name",
+    "descKey": "decor.items.shell_giant.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 240,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "starfish",
+    "nameKey": "decor.items.starfish.name",
+    "descKey": "decor.items.starfish.desc",
+    "category": "beach",
+    "placement": "shelf",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 80,
+    "atmosphere": 1,
+    "stageMin": 1
+  },
+  {
+    "id": "fishing_net",
+    "nameKey": "decor.items.fishing_net.name",
+    "descKey": "decor.items.fishing_net.desc",
+    "category": "beach",
+    "placement": "wall",
+    "footprint": [
+      1.5,
+      0.5
+    ],
+    "price": 520,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "beach_umbrella",
+    "nameKey": "decor.items.beach_umbrella.name",
+    "descKey": "decor.items.beach_umbrella.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 850,
+    "atmosphere": 6,
+    "stageMin": 1
+  },
+  {
+    "id": "deck_chair",
+    "nameKey": "decor.items.deck_chair.name",
+    "descKey": "decor.items.deck_chair.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      1,
+      1.5
+    ],
+    "price": 700,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "hammock",
+    "nameKey": "decor.items.hammock.name",
+    "descKey": "decor.items.hammock.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      1,
+      3
+    ],
+    "price": 2200,
+    "atmosphere": 10,
+    "stageMin": 2
+  },
+  {
+    "id": "coconut_crate",
+    "nameKey": "decor.items.coconut_crate.name",
+    "descKey": "decor.items.coconut_crate.desc",
+    "category": "beach",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 160,
+    "atmosphere": 2,
+    "stageMin": 1
+  },
+  {
+    "id": "barrel_table",
+    "nameKey": "decor.items.barrel_table.name",
+    "descKey": "decor.items.barrel_table.desc",
+    "category": "furniture",
+    "placement": "ground",
+    "footprint": [
+      1.5,
+      1
+    ],
+    "price": 950,
+    "atmosphere": 6,
+    "stageMin": 1
+  },
+  {
+    "id": "neon_open",
+    "nameKey": "decor.items.neon_open.name",
+    "descKey": "decor.items.neon_open.desc",
+    "category": "signs",
+    "placement": "wall",
+    "footprint": [
+      1,
+      0.5
+    ],
+    "price": 1400,
+    "atmosphere": 8,
+    "stageMin": 1
+  },
+  {
+    "id": "neon_phone",
+    "nameKey": "decor.items.neon_phone.name",
+    "descKey": "decor.items.neon_phone.desc",
+    "category": "signs",
+    "placement": "wall",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 2400,
+    "atmosphere": 10,
+    "stageMin": 2
+  },
+  {
+    "id": "neon_palm",
+    "nameKey": "decor.items.neon_palm.name",
+    "descKey": "decor.items.neon_palm.desc",
+    "category": "signs",
+    "placement": "wall",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 3200,
+    "atmosphere": 12,
+    "stageMin": 2
+  },
+  {
+    "id": "sign_arrows",
+    "nameKey": "decor.items.sign_arrows.name",
+    "descKey": "decor.items.sign_arrows.desc",
+    "category": "signs",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 480,
+    "atmosphere": 4,
+    "stageMin": 1
+  },
+  {
+    "id": "rug_woven",
+    "nameKey": "decor.items.rug_woven.name",
+    "descKey": "decor.items.rug_woven.desc",
+    "category": "furniture",
+    "placement": "ground",
+    "footprint": [
+      1.5,
+      1
+    ],
+    "price": 550,
+    "atmosphere": 4,
+    "stageMin": 1
+  },
+  {
+    "id": "rug_round",
+    "nameKey": "decor.items.rug_round.name",
+    "descKey": "decor.items.rug_round.desc",
+    "category": "furniture",
+    "placement": "ground",
+    "footprint": [
+      1.5,
+      1.5
+    ],
+    "price": 780,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "fountain",
+    "nameKey": "decor.items.fountain.name",
+    "descKey": "decor.items.fountain.desc",
+    "category": "furniture",
+    "placement": "ground",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 4200,
+    "atmosphere": 13,
+    "stageMin": 3
+  },
+  {
+    "id": "aquarium",
+    "nameKey": "decor.items.aquarium.name",
+    "descKey": "decor.items.aquarium.desc",
+    "category": "animals",
+    "placement": "ground",
+    "footprint": [
+      1,
+      0.5
+    ],
+    "price": 5200,
+    "atmosphere": 14,
+    "stageMin": 2
+  },
+  {
+    "id": "parrot_perch",
+    "nameKey": "decor.items.parrot_perch.name",
+    "descKey": "decor.items.parrot_perch.desc",
+    "category": "animals",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 6000,
+    "atmosphere": 15,
+    "stageMin": 2
+  },
+  {
+    "id": "poster_sunset",
+    "nameKey": "decor.items.poster_sunset.name",
+    "descKey": "decor.items.poster_sunset.desc",
+    "category": "art",
+    "placement": "wall",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 260,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "poster_longtail",
+    "nameKey": "decor.items.poster_longtail.name",
+    "descKey": "decor.items.poster_longtail.desc",
+    "category": "art",
+    "placement": "wall",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 300,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "poster_repair",
+    "nameKey": "decor.items.poster_repair.name",
+    "descKey": "decor.items.poster_repair.desc",
+    "category": "art",
+    "placement": "wall",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 220,
+    "atmosphere": 3,
+    "stageMin": 1
+  },
+  {
+    "id": "spirit_house",
+    "nameKey": "decor.items.spirit_house.name",
+    "descKey": "decor.items.spirit_house.desc",
+    "category": "luck",
+    "placement": "ground",
+    "footprint": [
+      0.5,
+      0.5
+    ],
+    "price": 3600,
+    "atmosphere": 12,
+    "stageMin": 2
+  },
+  {
+    "id": "lucky_cat",
+    "nameKey": "decor.items.lucky_cat.name",
+    "descKey": "decor.items.lucky_cat.desc",
+    "category": "luck",
+    "placement": "shelf",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 450,
+    "atmosphere": 5,
+    "stageMin": 1
+  },
+  {
+    "id": "phuang_malai",
+    "nameKey": "decor.items.phuang_malai.name",
+    "descKey": "decor.items.phuang_malai.desc",
+    "category": "luck",
+    "placement": "hang",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 120,
+    "atmosphere": 2,
+    "stageMin": 1
+  },
+  {
+    "id": "wind_chimes",
+    "nameKey": "decor.items.wind_chimes.name",
+    "descKey": "decor.items.wind_chimes.desc",
+    "category": "luck",
+    "placement": "hang",
+    "footprint": [
+      0.25,
+      0.25
+    ],
+    "price": 340,
+    "atmosphere": 4,
+    "stageMin": 1
+  }
+]

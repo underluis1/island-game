@@ -1,0 +1,129 @@
+/* Toast stack (bottom-right) and the big in-game error banner. */
+.toast-stack {
+  position: absolute;
+  right: var(--edge);
+  bottom: var(--edge);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--s-2);
+  width: min(24rem, 60vw);
+}
+.toast {
+  --tk: #3f8fd0;
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  max-width: 100%;
+  padding: 0.6rem 0.95rem 0.6rem 0.6rem;
+  border-radius: var(--r-md);
+  color: var(--c-on-glass);
+  background: var(--c-glass-2);
+  border: 1px solid var(--c-glass-line);
+  border-left: 0.3rem solid var(--tk);
+  -webkit-backdrop-filter: blur(0.7rem);
+  backdrop-filter: blur(0.7rem);
+  box-shadow: var(--sh-2);
+  animation: toast-in 0.42s var(--e-back) both;
+  cursor: pointer;
+}
+.toast.is-leaving {
+  animation: toast-out 0.25s var(--e-in) both;
+}
+.toast-success { --tk: var(--c-green); }
+.toast-warn { --tk: var(--c-gold); }
+.toast-error { --tk: var(--c-coral); }
+.toast-money { --tk: var(--c-gold); }
+.toast-ic {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: var(--tk);
+  background: color-mix(in srgb, var(--tk) 22%, transparent);
+  flex: none;
+}
+.toast-body {
+  min-width: 0;
+  flex: 1;
+}
+.toast-title {
+  font-weight: 800;
+  line-height: 1.2;
+}
+.toast-text {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--c-on-glass);
+}
+.toast-title + .toast-text {
+  color: var(--c-on-glass-2);
+}
+.toast-amount {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: #8fe6a4;
+  white-space: nowrap;
+}
+.toast-amount.is-loss { color: #ff9c8c; }
+@keyframes toast-in {
+  from { opacity: 0; transform: translateX(2rem) scale(0.94); }
+}
+@keyframes toast-out {
+  to { opacity: 0; transform: translateX(1.5rem); }
+}
+
+.game-error-slot {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 24%;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--s-5);
+}
+.game-error {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-3);
+  max-width: min(40rem, 90vw);
+  padding: 0.6rem 1.4rem 0.6rem 0.6rem;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-lg);
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(180deg, #ff7e69, var(--c-coral-d));
+  box-shadow: 0 0.22rem 0 var(--c-coral-dd), 0 0.9rem 2rem rgba(120, 30, 16, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  text-shadow: 0 0.08em 0 rgba(120, 30, 16, 0.5);
+  animation: game-error-in 0.5s var(--e-back) both;
+}
+.game-error.is-leaving {
+  animation: game-error-out 0.25s var(--e-in) both;
+}
+.game-error-ic {
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  font-size: 1.35rem;
+  color: var(--c-coral-d);
+  background: #fff;
+  box-shadow: inset 0 -0.14rem 0 rgba(214, 77, 57, 0.25);
+  text-shadow: none;
+  flex: none;
+}
+@keyframes game-error-in {
+  0% { opacity: 0; transform: translateY(-0.6rem) scale(0.8); }
+  55% { opacity: 1; transform: translateY(0) scale(1.05) rotate(-1.2deg); }
+  75% { transform: scale(0.99) rotate(0.8deg); }
+  100% { transform: none; }
+}
+@keyframes game-error-out {
+  to { opacity: 0; transform: translateY(-0.5rem) scale(0.96); }
+}

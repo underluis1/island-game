@@ -1,0 +1,76 @@
+{
+  "kinds": {
+    "tourist": {
+      "weight": 40, "minReputation": 0, "budget": [1.0, 1.45], "patience": [1.2, 1.9], "tip": 0.08, "tipChance": 0.6, "leniency": 0,
+      "urgency": { "normal": 0.45, "today": 0.35, "wait": 0.2 },
+      "modelBias": {}, "faultBias": { "cracked_screen": 1.3 }, "names": ["intl", "italian"]
+    },
+    "local": {
+      "weight": 26, "minReputation": 0, "budget": [0.85, 1.1], "patience": [1.6, 2.4], "tip": 0.03, "tipChance": 0.35, "leniency": 0.02,
+      "urgency": { "normal": 0.7, "today": 0.1, "wait": 0.2 },
+      "modelBias": { "fone8": 1.6, "fone14": 0.6 }, "faultBias": { "worn_battery": 1.4, "port_lint": 1.3 }, "names": ["thai"]
+    },
+    "diver": {
+      "weight": 12, "minReputation": 0, "budget": [0.95, 1.3], "patience": [1.3, 2.0], "tip": 0.06, "tipChance": 0.5, "leniency": 0.01,
+      "urgency": { "normal": 0.5, "today": 0.3, "wait": 0.2 },
+      "modelBias": {}, "faultBias": { "sea_water": 4, "sand_speaker": 2, "sand_everywhere": 2, "port_lint": 1.5 }, "names": ["intl", "thai"]
+    },
+    "backpacker": {
+      "weight": 16, "minReputation": 0, "budget": [0.8, 1.05], "patience": [1.4, 2.2], "tip": 0.02, "tipChance": 0.3, "leniency": 0.03,
+      "urgency": { "normal": 0.4, "today": 0.4, "wait": 0.2 },
+      "modelBias": { "fone8": 1.5, "fonex": 1.2, "fone14": 0.5 }, "faultBias": { "sand_everywhere": 1.5, "cracked_screen": 1.2 }, "names": ["intl", "italian"]
+    },
+    "business": {
+      "weight": 9, "minReputation": 2, "budget": [1.3, 1.6], "patience": [0.8, 1.2], "tip": 0.12, "tipChance": 0.7, "leniency": -0.03,
+      "urgency": { "normal": 0.25, "today": 0.45, "wait": 0.3 },
+      "modelBias": { "fone8": 0.3, "fone12": 1.4, "fone14": 1.8 }, "faultBias": {}, "names": ["intl", "thai"]
+    }
+  },
+  "voices": ["customer_a", "customer_b", "customer_c", "customer_d", "customer_e", "customer_f"],
+  "names": {
+    "thai": ["Somsak", "Malee", "Niran", "Ploy", "Anong", "Chaiya", "Kanya", "Preecha", "Suda", "Tawan", "Lamai", "Arthit", "Pim", "Wichai", "Dao", "Boonmee", "Nok", "Sunan", "Mali", "Kiet"],
+    "intl": ["Emma", "Liam", "Sofia", "Noah", "Hannah", "Lucas", "Yuki", "Chloe", "Oliver", "Ingrid", "Pablo", "Mei", "Jonas", "Amelie", "Ravi", "Freya", "Hugo", "Zoe", "Mateus", "Anika", "Tom", "Lena", "Diego", "Sanne"],
+    "italian": ["Giulia", "Luca", "Chiara", "Marco", "Sara", "Davide", "Elena", "Simone", "Martina", "Andrea", "Francesca", "Paolo"]
+  },
+  "characters": {
+    "noi": {
+      "name": "Noi", "kind": "local", "voice": "noi", "look": 1001, "minReputation": 0, "interval": [3, 5],
+      "budget": 1.25, "patience": 3, "tipMult": 2,
+      "faults": ["cracked_screen", "port_lint", "worn_battery", "sand_speaker", "speaker_blown"]
+    },
+    "kai": {
+      "name": "Kai", "kind": "diver", "voice": "dive_instructor", "look": 1002, "minReputation": 1, "interval": [3, 4],
+      "budget": 1.2, "patience": 2.5, "tipMult": 1.2,
+      "faults": ["sea_water", "sea_water", "sand_everywhere", "sand_speaker", "port_lint"]
+    },
+    "matteo": {
+      "name": "Matteo", "kind": "backpacker", "voice": "italian_backpacker", "look": 1003, "minReputation": 0.5, "interval": [4, 6],
+      "budget": 0.95, "patience": 2.5, "tipMult": 0.5,
+      "faults": ["cracked_screen", "worn_battery", "sand_everywhere", "port_broken", "earpiece_muffled"]
+    }
+  },
+  "confusions": {
+    "cracked_screen": ["display_lines", "loose_connector", "burnt_connector", "swollen_battery"],
+    "worn_battery": ["dead_battery", "swollen_battery", "port_lint", "charge_ic"],
+    "dead_battery": ["charge_ic", "port_broken", "port_lint", "sea_water", "swollen_battery"],
+    "swollen_battery": ["cracked_screen", "dead_battery", "worn_battery", "loose_connector"],
+    "port_lint": ["port_broken", "charge_ic", "dead_battery", "worn_battery"],
+    "port_broken": ["port_lint", "charge_ic", "dead_battery", "sea_water"],
+    "sea_water": ["sand_everywhere", "dead_battery", "port_broken", "speaker_blown"],
+    "speaker_blown": ["sand_speaker", "sea_water", "earpiece_muffled", "sand_everywhere"],
+    "sand_speaker": ["speaker_blown", "port_lint", "sand_everywhere", "earpiece_muffled"],
+    "earpiece_muffled": ["speaker_blown", "sand_speaker", "front_camera_broken", "sand_everywhere"],
+    "rear_camera_broken": ["front_camera_broken", "sand_everywhere", "loose_connector", "back_glass_cracked"],
+    "front_camera_broken": ["rear_camera_broken", "earpiece_muffled", "cracked_screen", "loose_connector"],
+    "taptic_dead": ["loose_connector", "speaker_blown", "sand_everywhere", "sea_water"],
+    "display_lines": ["cracked_screen", "loose_connector", "burnt_connector", "sea_water"],
+    "loose_connector": ["display_lines", "cracked_screen", "burnt_connector", "dead_battery"],
+    "sand_everywhere": ["sand_speaker", "sea_water", "port_lint", "speaker_blown"],
+    "back_glass_cracked": ["rear_camera_broken", "cracked_screen", "swollen_battery", "sea_water"],
+    "charge_ic": ["port_broken", "port_lint", "dead_battery", "worn_battery"],
+    "burnt_connector": ["cracked_screen", "display_lines", "loose_connector", "sea_water"]
+  },
+  "kindLines": { "greet": 2, "accept": 2, "counter": 1, "refuse": 1, "pickup": 1, "thanks": 1 },
+  "anyLines": { "urgent_today": 2, "urgent_wait": 2, "urgent_normal": 2, "ripoff": 2, "impatient": 2, "pickup_late": 2, "angry": 2, "no_tools": 2, "rack_full": 1, "meh": 2, "postpone": 1 },
+  "characterLines": { "greet": 3, "accept": 1, "pickup": 1, "thanks": 2 }
+}

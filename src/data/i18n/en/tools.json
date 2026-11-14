@@ -1,0 +1,206 @@
+{
+  "category": {
+    "hand": "Hand tools",
+    "bench": "Bench equipment",
+    "comfort": "Comfort and organisation"
+  },
+  "driver": {
+    "name": "Screwdriver set",
+    "desc": "Precision bits: Pentalobe P2, Tri-point Y000, Phillips #000 and Standoff.",
+    "effect": "Higher tiers: faster screwing, less risk of stripping screws and a wider torque window.",
+    "t1": "Market-stall screwdrivers",
+    "t2": "Pro precision set",
+    "t3": "Elite S2 steel set"
+  },
+  "spudger": {
+    "name": "Spudger",
+    "desc": "Anti-static pry tool for popping off flex cable connectors without scratching the board.",
+    "effect": "Higher tiers: less risk of damaging connectors when you disconnect them.",
+    "t1": "Plastic spudger",
+    "t2": "Reinforced nylon spudger",
+    "t3": "Elite carbon fibre spudger"
+  },
+  "pick": {
+    "name": "Opening picks",
+    "desc": "Thin picks you slide along the edges to slice through the screen adhesive.",
+    "effect": "Used to cut the perimeter adhesive: careful not to push them in too far where the flex cables run.",
+    "t1": "Opening picks"
+  },
+  "suction": {
+    "name": "Suction cup",
+    "desc": "Lifts the screen just enough to slip a pick in.",
+    "effect": "Higher tiers: grips even when the adhesive is cooler (6 °C and 12 °C less).",
+    "t1": "Basic suction cup",
+    "t2": "Pro lever suction cup",
+    "t3": "Elite double suction pliers"
+  },
+  "tweezers": {
+    "name": "Tweezers",
+    "desc": "For small, fragile parts and for pulling the battery's adhesive pull tabs.",
+    "effect": "Higher tiers: you can pull the tabs faster without snapping them, and you break fewer fragile parts.",
+    "t1": "Basic tweezers",
+    "t2": "Pro anti-static tweezers",
+    "t3": "Elite titanium tweezers"
+  },
+  "heat": {
+    "name": "Heat source",
+    "desc": "Softens the adhesive on screens and glass before opening.",
+    "effect": "Higher tiers heat up faster; the heating plate warms evenly and never overheats.",
+    "t1": "Mini hairdryer",
+    "t2": "Heat gun",
+    "t3": "Heating plate"
+  },
+  "brush": {
+    "name": "Anti-static brush",
+    "desc": "Sweeps sand and dust off the components.",
+    "effect": "The Pro tier cleans 40% faster.",
+    "t1": "Small anti-static brush",
+    "t2": "Pro brush set"
+  },
+  "toothpick": {
+    "name": "Toothpick",
+    "desc": "The cheapest and most effective tool for lint in the charging port.",
+    "effect": "Cleans the charging port from the outside, without opening the phone.",
+    "t1": "Bamboo toothpick"
+  },
+  "ipa": {
+    "name": "99% isopropyl alcohol",
+    "desc": "Dissolves corrosion and salt residue and evaporates without a trace.",
+    "effect": "Essential for seawater corrosion and for freeing batteries whose pull tabs have snapped.",
+    "t1": "Bottle of isopropyl alcohol"
+  },
+  "air": {
+    "name": "Compressed air",
+    "desc": "Blows sand out of the corners the brush can't reach.",
+    "effect": "Clears dirt faster than the brush; the compressor is quicker still.",
+    "t1": "Air duster can",
+    "t2": "Mini compressor"
+  },
+  "card": {
+    "name": "Plastic card",
+    "desc": "A stiff card to slide under the battery so you can pry it up safely.",
+    "effect": "Lets you free a battery with snapped pull tabs without using the spudger.",
+    "t1": "Pry card"
+  },
+  "adhesive": {
+    "name": "Adhesive seals",
+    "desc": "Pre-cut adhesives for closing up the screen and battery just like the factory did.",
+    "effect": "Restores water resistance on closing: customers appreciate it in their reviews (even more with the Pro tier).",
+    "t1": "Adhesive strips",
+    "t2": "Pro pre-cut seals"
+  },
+  "extractor": {
+    "name": "Screw extractor",
+    "desc": "Rescues screws with a stripped head.",
+    "effect": "Without it, one stripped screw stalls the whole repair.",
+    "t1": "Extractor kit"
+  },
+  "flashlight": {
+    "name": "Flashlight",
+    "desc": "For hunting down screws that rolled off the bench.",
+    "effect": "Finds lost screws.",
+    "t1": "LED flashlight"
+  },
+  "esd": {
+    "name": "Anti-static protection",
+    "desc": "Grounds static electricity before it reaches the chips.",
+    "effect": "Cuts random electrical damage by 40% (wrist strap) or 65% (full kit).",
+    "t1": "ESD wrist strap",
+    "t2": "ESD kit with gloves and mat"
+  },
+  "mat": {
+    "name": "Magnetic mat",
+    "desc": "Magnetic grid with numbered cells: a place for every screw.",
+    "effect": "More cells: 8, 15 or 24. Screws on the mat don't roll away and don't get mixed up.",
+    "t1": "8-cell mat",
+    "t2": "15-cell mat",
+    "t3": "24-cell mat"
+  },
+  "multimeter": {
+    "name": "Measuring instruments",
+    "desc": "They measure the current the phone draws: the first clue in every diagnosis.",
+    "effect": "The USB tester shows the amps while charging; the bench power supply reveals logic board faults.",
+    "t1": "USB tester",
+    "t2": "Bench power supply"
+  },
+  "battester": {
+    "name": "Battery tester",
+    "desc": "Reads the battery's health and charge cycles.",
+    "effect": "During diagnosis it instantly tells a worn-out battery from a dead or swollen one.",
+    "t1": "Battery tester"
+  },
+  "programmer": {
+    "name": "Chip programmer",
+    "desc": "Copies the calibration data from the original part to the new one.",
+    "effect": "Preserves True Tone and calibrations when you replace paired displays, batteries and cameras.",
+    "t1": "True Tone programmer"
+  },
+  "ultrasonic": {
+    "name": "Ultrasonic bath",
+    "desc": "Microbubbles lift corrosion and dirt, even from under the chips.",
+    "effect": "Fully cleans a removed component in one go (not batteries or displays).",
+    "t1": "Ultrasonic bath"
+  },
+  "solder": {
+    "name": "Soldering",
+    "desc": "For micro-soldering jobs on the logic board.",
+    "effect": "Together with the microscope, it lets you repair charging chips and burnt connectors.",
+    "t1": "Fine-tip soldering iron",
+    "t2": "Hot air station"
+  },
+  "microscope": {
+    "name": "Stereo microscope",
+    "desc": "Magnifies the logic board until you can see the individual pads.",
+    "effect": "Unlocks the microscope view, required for micro-soldering.",
+    "t1": "Stereo microscope"
+  },
+  "separator": {
+    "name": "Separator machine",
+    "desc": "Separates the broken glass from a display's still-good panel.",
+    "effect": "Refurbishes a broken display into a “Good” spare part, a couple of times a day.",
+    "t1": "Glass separator"
+  },
+  "chair": {
+    "name": "Seating",
+    "desc": "After hours at the bench, your back sends you the bill.",
+    "effect": "Higher tiers: tiredness adds fewer mistakes.",
+    "t1": "Plastic stool",
+    "t2": "Padded chair",
+    "t3": "Ergonomic armchair"
+  },
+  "fan": {
+    "name": "Cooling",
+    "desc": "Between 11 am and 3 pm the heat makes your hands sweat.",
+    "effect": "The fan halves heat-related mistakes; the air conditioner eliminates them.",
+    "t1": "Fan",
+    "t2": "Air conditioner"
+  },
+  "lamp": {
+    "name": "Bench lamp",
+    "desc": "Light on your work mat.",
+    "effect": "The magnifying lamp halves mistakes caused by poor light after sunset.",
+    "t1": "Desk lamp",
+    "t2": "Magnifying lamp"
+  },
+  "lights": {
+    "name": "Shop lights",
+    "desc": "Fairy lights and spotlights that warm up the mood when the sun goes down.",
+    "effect": "More atmosphere (more customers and tips) and fewer mistakes in the evening.",
+    "t1": "String of fairy lights",
+    "t2": "Fairy lights and spotlights"
+  },
+  "rack": {
+    "name": "Phone rack",
+    "desc": "The slots where waiting phones are kept.",
+    "effect": "Order capacity: 3, 5 or 8 phones.",
+    "t1": "3-slot phone rack",
+    "t2": "5-slot phone rack",
+    "t3": "8-slot phone rack"
+  },
+  "shelf": {
+    "name": "Parts shelves",
+    "desc": "More room to keep spare parts in stock.",
+    "effect": "Raises storage capacity from 14 to 40 parts.",
+    "t1": "Storage shelves"
+  }
+}

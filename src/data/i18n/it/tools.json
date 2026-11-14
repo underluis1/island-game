@@ -1,0 +1,206 @@
+{
+  "category": {
+    "hand": "Attrezzi a mano",
+    "bench": "Strumenti da banco",
+    "comfort": "Comfort e organizzazione"
+  },
+  "driver": {
+    "name": "Set di cacciaviti",
+    "desc": "Punte di precisione Pentalobe P2, Tri-point Y000, Phillips #000 e Standoff.",
+    "effect": "Tier più alti: avvitatura più rapida, meno rischio di spanare le viti e finestra di coppia più ampia.",
+    "t1": "Cacciaviti da bancarella",
+    "t2": "Set di precisione Pro",
+    "t3": "Set Elite in acciaio S2"
+  },
+  "spudger": {
+    "name": "Spudger",
+    "desc": "Leva antistatica per staccare i connettori flex senza graffiare la scheda.",
+    "effect": "Tier più alti: meno rischio di danneggiare i connettori quando li scolleghi.",
+    "t1": "Spudger di plastica",
+    "t2": "Spudger in nylon rinforzato",
+    "t3": "Spudger Elite in fibra di carbonio"
+  },
+  "pick": {
+    "name": "Plettri di apertura",
+    "desc": "Plettri sottili da far scorrere lungo i bordi per tagliare l'adesivo dello schermo.",
+    "effect": "Servono per tagliare l'adesivo perimetrale: attento a non infilarli troppo dove passano i flat.",
+    "t1": "Plettri di apertura"
+  },
+  "suction": {
+    "name": "Ventosa",
+    "desc": "Solleva lo schermo quel tanto che basta per infilare il plettro.",
+    "effect": "Tier più alti: fa presa anche con l'adesivo meno caldo (6 °C e 12 °C in meno).",
+    "t1": "Ventosa semplice",
+    "t2": "Ventosa a leva Pro",
+    "t3": "Pinza a doppia ventosa Elite"
+  },
+  "tweezers": {
+    "name": "Pinzette",
+    "desc": "Per i pezzi piccoli e fragili e per tirare le linguette adesive della batteria.",
+    "effect": "Tier più alti: puoi tirare le linguette più in fretta senza spezzarle e rompi meno pezzi fragili.",
+    "t1": "Pinzette base",
+    "t2": "Pinzette antistatiche Pro",
+    "t3": "Pinzette Elite in titanio"
+  },
+  "heat": {
+    "name": "Fonte di calore",
+    "desc": "Ammorbidisce l'adesivo di schermi e vetri prima dell'apertura.",
+    "effect": "Tier più alti scaldano più in fretta; la piastra riscaldante scalda in modo uniforme e non surriscalda mai.",
+    "t1": "Mini phon",
+    "t2": "Heat gun",
+    "t3": "Piastra riscaldante"
+  },
+  "brush": {
+    "name": "Pennello antistatico",
+    "desc": "Spazzola via sabbia e polvere dai componenti.",
+    "effect": "Il tier Pro pulisce il 40% più in fretta.",
+    "t1": "Pennellino antistatico",
+    "t2": "Set di pennelli Pro"
+  },
+  "toothpick": {
+    "name": "Stuzzicadenti",
+    "desc": "Lo strumento più economico e più efficace per la lanugine nella porta di ricarica.",
+    "effect": "Pulisce la porta di ricarica dall'esterno, senza aprire il telefono.",
+    "t1": "Stuzzicadenti di bambù"
+  },
+  "ipa": {
+    "name": "Alcol isopropilico 99%",
+    "desc": "Scioglie ossido e residui di sale ed evapora senza lasciare traccia.",
+    "effect": "Indispensabile per la corrosione da acqua di mare e per staccare le batterie con le linguette spezzate.",
+    "t1": "Flacone di alcol isopropilico"
+  },
+  "air": {
+    "name": "Aria compressa",
+    "desc": "Soffia via la sabbia dagli angoli dove il pennello non arriva.",
+    "effect": "Pulisce lo sporco più in fretta del pennello; il compressore è ancora più rapido.",
+    "t1": "Bomboletta d'aria",
+    "t2": "Mini compressore"
+  },
+  "card": {
+    "name": "Tessera di plastica",
+    "desc": "Una tessera rigida da infilare sotto la batteria per fare leva in sicurezza.",
+    "effect": "Permette di staccare una batteria con le linguette spezzate senza usare lo spudger.",
+    "t1": "Tessera per leva"
+  },
+  "adhesive": {
+    "name": "Guarnizioni adesive",
+    "desc": "Adesivi pretagliati per richiudere schermo e batteria come in fabbrica.",
+    "effect": "Ripristina la tenuta all'acqua alla chiusura: i clienti lo apprezzano nelle recensioni (di più con il tier Pro).",
+    "t1": "Strisce adesive",
+    "t2": "Guarnizioni pretagliate Pro"
+  },
+  "extractor": {
+    "name": "Estrattore per viti",
+    "desc": "Recupera le viti con la testa spanata.",
+    "effect": "Senza, una vite spanata blocca tutta la riparazione.",
+    "t1": "Kit estrattore"
+  },
+  "flashlight": {
+    "name": "Torcia",
+    "desc": "Per cercare le viti rotolate via dal banco.",
+    "effect": "Ritrova le viti perse.",
+    "t1": "Torcia a LED"
+  },
+  "esd": {
+    "name": "Protezione antistatica",
+    "desc": "Scarica a terra l'elettricità statica prima che arrivi ai chip.",
+    "effect": "Riduce i danni elettrici casuali del 40% (braccialetto) o del 65% (kit completo).",
+    "t1": "Braccialetto ESD",
+    "t2": "Kit ESD con guanti e tappetino"
+  },
+  "mat": {
+    "name": "Tappetino magnetico",
+    "desc": "Griglia magnetica con celle numerate: ogni vite al suo posto.",
+    "effect": "Più celle: 8, 15 o 24. Le viti sul tappetino non rotolano via e non si confondono.",
+    "t1": "Tappetino da 8 celle",
+    "t2": "Tappetino da 15 celle",
+    "t3": "Tappetino da 24 celle"
+  },
+  "multimeter": {
+    "name": "Strumenti di misura",
+    "desc": "Misurano la corrente assorbita dal telefono: il primo indizio di ogni diagnosi.",
+    "effect": "Il tester USB mostra gli ampere in carica; l'alimentatore da banco rivela i guasti della scheda logica.",
+    "t1": "Tester USB",
+    "t2": "Alimentatore da banco"
+  },
+  "battester": {
+    "name": "Tester batteria",
+    "desc": "Legge salute e cicli di ricarica della batteria.",
+    "effect": "In diagnosi distingue subito una batteria usurata, morta o gonfia.",
+    "t1": "Tester batteria"
+  },
+  "programmer": {
+    "name": "Programmatore di chip",
+    "desc": "Copia i dati di calibrazione dal pezzo originale a quello nuovo.",
+    "effect": "Conserva True Tone e calibrazioni quando sostituisci display, batterie e fotocamere accoppiati.",
+    "t1": "Programmatore True Tone"
+  },
+  "ultrasonic": {
+    "name": "Vasca a ultrasuoni",
+    "desc": "Le microbolle staccano ossido e sporco anche sotto i chip.",
+    "effect": "Pulisce del tutto un componente rimosso in un colpo solo (non batterie né display).",
+    "t1": "Vasca a ultrasuoni"
+  },
+  "solder": {
+    "name": "Saldatura",
+    "desc": "Per i lavori di microsaldatura sulla scheda logica.",
+    "effect": "Insieme al microscopio permette di riparare chip di ricarica e connettori bruciati.",
+    "t1": "Saldatore a punta fine",
+    "t2": "Stazione ad aria calda"
+  },
+  "microscope": {
+    "name": "Microscopio stereo",
+    "desc": "Ingrandisce la scheda logica fino a vedere le singole piazzole.",
+    "effect": "Sblocca la vista microscopio, necessaria per la microsaldatura.",
+    "t1": "Microscopio stereo"
+  },
+  "separator": {
+    "name": "Macchina separatrice",
+    "desc": "Separa il vetro rotto dal pannello ancora buono di un display.",
+    "effect": "Rigenera un display rotto in un ricambio «Buono», un paio di volte al giorno.",
+    "t1": "Separatrice per vetri"
+  },
+  "chair": {
+    "name": "Seduta",
+    "desc": "Dopo ore al banco la schiena presenta il conto.",
+    "effect": "Tier più alti: la stanchezza fa aumentare meno gli errori.",
+    "t1": "Sgabello di plastica",
+    "t2": "Sedia imbottita",
+    "t3": "Poltrona ergonomica"
+  },
+  "fan": {
+    "name": "Raffrescamento",
+    "desc": "Tra le 11 e le 15 il caldo fa sudare le mani.",
+    "effect": "Il ventilatore dimezza gli errori dovuti al caldo; il condizionatore li elimina.",
+    "t1": "Ventilatore",
+    "t2": "Condizionatore"
+  },
+  "lamp": {
+    "name": "Lampada da banco",
+    "desc": "Luce sul tappetino da lavoro.",
+    "effect": "La lampada con lente dimezza gli errori dovuti alla poca luce dopo il tramonto.",
+    "t1": "Lampada da tavolo",
+    "t2": "Lampada con lente d'ingrandimento"
+  },
+  "lights": {
+    "name": "Luci del negozio",
+    "desc": "Lucine e faretti che scaldano l'atmosfera quando cala il sole.",
+    "effect": "Più atmosfera (più clienti e mance) e meno errori di sera.",
+    "t1": "Filo di lucine",
+    "t2": "Lucine e faretti"
+  },
+  "rack": {
+    "name": "Portatelefoni",
+    "desc": "Gli slot dove riporre i telefoni in attesa.",
+    "effect": "Capienza ordini: 3, 5 o 8 telefoni.",
+    "t1": "Portatelefoni da 3 posti",
+    "t2": "Portatelefoni da 5 posti",
+    "t3": "Portatelefoni da 8 posti"
+  },
+  "shelf": {
+    "name": "Mensole per ricambi",
+    "desc": "Più spazio per tenere i ricambi a magazzino.",
+    "effect": "Porta la capienza del magazzino da 14 a 40 ricambi.",
+    "t1": "Mensole da magazzino"
+  }
+}

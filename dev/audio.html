@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Island Fix — banco di prova audio</title>
+    <style>
+      :root { --bg: #f4ead8; --panel: #fffaf0; --ink: #2c3a3b; --muted: #6d7f80; --accent: #17a59d; --accent-ink: #fff; --line: #0002; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: var(--bg); color: var(--ink); font: 13px/1.4 system-ui, sans-serif; }
+      main { max-width: 1180px; margin: 0 auto; padding: 16px; display: grid; gap: 12px; }
+      h1 { font-size: 18px; margin: 0; }
+      h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 8px; }
+      section { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+      header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+      .grid { display: flex; flex-wrap: wrap; gap: 5px; }
+      .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+      button { font: inherit; padding: 5px 9px; border-radius: 7px; border: 1px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; }
+      button:hover { border-color: var(--accent); }
+      button:active { transform: translateY(1px); }
+      button.on, button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+      label.row { display: grid; grid-template-columns: 96px 1fr 44px; align-items: center; gap: 8px; margin: 3px 0; }
+      label.row output { font-variant-numeric: tabular-nums; text-align: right; color: var(--muted); }
+      input[type='range'] { width: 100%; accent-color: var(--accent); }
+      input[type='text'] { width: 100%; font: inherit; padding: 6px 8px; border-radius: 7px; border: 1px solid var(--line); margin-bottom: 8px; }
+      canvas { width: 220px; height: 34px; border-radius: 6px; background: #20302f; }
+      #status { color: var(--muted); font-variant-numeric: tabular-nums; }
+      h3 { font-size: 11px; color: var(--muted); margin: 10px 0 4px; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Island Fix — banco di prova audio</h1>
+        <button id="unlock" class="primary">Attiva audio</button>
+        <button id="pause">Pausa</button>
+        <canvas id="meter" width="440" height="68"></canvas>
+        <span id="status">audio bloccato</span>
+      </header>
+      <div class="cols">
+        <section>
+          <h2>Radio</h2>
+          <div class="grid" id="stations"></div>
+          <h3>Mixer</h3>
+          <div id="volumes"></div>
+          <label class="row">focus <input id="focus" type="range" min="0" max="1" step="0.01" value="0" /><output></output></label>
+        </section>
+        <section>
+          <h2>Ambiente</h2>
+          <div id="env"></div>
+        </section>
+        <section>
+          <h2>Loop degli strumenti</h2>
+          <div class="grid" id="loops"></div>
+          <label class="row">intensità <input id="intensity" type="range" min="0" max="1" step="0.01" value="0.6" /><output></output></label>
+          <h3>Voci</h3>
+          <input id="line" type="text" value="Sawasdee krap! Hai scollegato la batteria, vero? Bene… ora le viti." />
+          <div class="grid" id="voices"></div>
+        </section>
+      </div>
+      <section>
+        <h2>Effetti sonori</h2>
+        <div id="sfx"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/dev/audio-demo.ts"></script>
+  </body>
+</html>

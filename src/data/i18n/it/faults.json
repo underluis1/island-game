@@ -1,0 +1,240 @@
+{
+  "tool": {
+    "visual": "Ispezione visiva",
+    "multimeter": "Tester USB",
+    "battester": "Tester batteria",
+    "psu": "Alimentatore da banco"
+  },
+  "reading": {
+    "visual": {
+      "cracked_display": "Il vetro dello schermo è crepato.",
+      "cracked_back": "Il vetro posteriore è crepato.",
+      "port_dirty": "La porta di ricarica è piena di lanugine e sabbia.",
+      "port_corroded": "I contatti della porta di ricarica sono verdi di ossido.",
+      "display_lifted": "Lo schermo è sollevato dal telaio: qualcosa spinge da sotto.",
+      "grille_sand": "La griglia dell'altoparlante è intasata di sabbia.",
+      "water_indicator": "L'indicatore di contatto con liquidi nel vano SIM è rosso.",
+      "previous_repair": "Le viti in basso sono segnate: qualcuno lo ha già aperto.",
+      "nothing_visible": "Da fuori non si nota niente di strano."
+    },
+    "ammeter": {
+      "no_current": "{amps} A — non passa corrente: il cavo non fa contatto.",
+      "trickle": "{amps} A — un filo di corrente: il telefono è acceso ma non accetta la carica.",
+      "unstable": "{amps} A — la lettura balla su e giù: c'è un corto o dell'ossido sulla scheda.",
+      "boot_no_screen": "{amps} A — assorbe come un telefono che si avvia, ma lo schermo resta nero.",
+      "charging_ok": "{amps} A — carica regolare.",
+      "charging_slow": "{amps} A — carica, ma con poca corrente: la batteria fa fatica."
+    },
+    "battery": {
+      "missing": "Nessuna batteria rilevata.",
+      "health": "Salute {health}% · {cycles} cicli di ricarica",
+      "swollen": "Tensione irregolare: la cella è gonfia. Maneggiare con cautela!",
+      "dead": "La cella è completamente scarica e non tiene la tensione.",
+      "worn": "Batteria usurata: da sostituire.",
+      "ok": "Batteria in buona salute."
+    },
+    "psu": {
+      "ok": "Assorbimento a vuoto regolare: la scheda logica sta bene.",
+      "charge_ic": "La linea di ricarica non risponde: chip di ricarica guasto.",
+      "connector": "Corto su una linea del display: un connettore sulla scheda è bruciato.",
+      "long_screw": "Una linea interrotta sotto una vite: qualcuno ha usato una vite troppo lunga.",
+      "short": "Assorbimento anomalo sulla linea di ricarica: c'è un corto sulla scheda.",
+      "corrosion": "Assorbimento instabile: c'è ossido sulla scheda logica."
+    }
+  },
+  "cracked_screen": {
+    "name": "Schermo rotto",
+    "diagnosis": "Il vetro e il pannello sono danneggiati da un urto: il display va sostituito.",
+    "complaint1": "Mi è scivolato sugli scogli. Lo schermo è una ragnatela.",
+    "complaint2": "È caduto dal motorino… si vede ancora qualcosa, ma il touch fa quello che vuole.",
+    "complaint3": "Ho il vetro tutto crepato, mi taglio le dita quando scrivo.",
+    "clue_visual": "Le crepe sul vetro si vedono a occhio nudo.",
+    "clue_multimeter": "Di solito carica normalmente; se il pannello è morto assorbe come all'avvio ma resta nero.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "worn_battery": {
+    "name": "Batteria usurata",
+    "diagnosis": "La batteria ha perso capacità con i cicli di ricarica: si sostituisce.",
+    "complaint1": "La batteria non arriva a pranzo. La mattina è al 100%, a mezzogiorno è morto.",
+    "complaint2": "Si spegne al 30% quando faccio una foto. Poi lo attacco e riparte.",
+    "complaint3": "Devo girare sempre con il power bank, non dura più niente.",
+    "clue_visual": "Da fuori non si vede nulla.",
+    "clue_multimeter": "Carica, ma con corrente più bassa del normale.",
+    "clue_battester": "Salute sotto il 70% e molti cicli.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "dead_battery": {
+    "name": "Batteria morta",
+    "diagnosis": "La cella è completamente esaurita e non alimenta più il telefono: batteria nuova.",
+    "complaint1": "Non si accende più. L'ho lasciato in carica tutta la notte, niente.",
+    "complaint2": "È morto di colpo ieri sera. Schermo nero, nessun segno di vita.",
+    "clue_visual": "Da fuori non si vede nulla.",
+    "clue_multimeter": "Assorbe poca corrente e il telefono non parte.",
+    "clue_battester": "Salute vicina allo zero.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "swollen_battery": {
+    "name": "Batteria gonfia",
+    "diagnosis": "La batteria si è gonfiata e spinge sullo schermo: va tolta con molta delicatezza e sostituita.",
+    "complaint1": "Lo schermo si sta staccando da solo, è normale?",
+    "complaint2": "Il telefono è diventato… panciuto. E non si accende più.",
+    "clue_visual": "Lo schermo è sollevato dal telaio.",
+    "clue_multimeter": "Assorbe poca corrente e il telefono non parte.",
+    "clue_battester": "Segnala la cella gonfia.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "port_lint": {
+    "name": "Porta di ricarica sporca",
+    "diagnosis": "Lanugine e sabbia compresse sul fondo della porta impediscono al cavo di fare contatto: basta pulirla.",
+    "complaint1": "Non carica più. Il cavo non entra fino in fondo.",
+    "complaint2": "Carica solo se tengo il cavo piegato in un certo modo.",
+    "complaint3": "Ho provato tre caricatori diversi, niente da fare.",
+    "clue_visual": "Guardando dentro la porta si vede lo sporco.",
+    "clue_multimeter": "Zero ampere: il cavo non fa contatto.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "port_broken": {
+    "name": "Connettore di ricarica rotto",
+    "diagnosis": "I contatti della porta sono piegati o spezzati: si sostituisce il flat della porta di ricarica.",
+    "complaint1": "Non carica. Il cavo balla dentro la porta.",
+    "complaint2": "Ho tirato il cavo di lato e ha fatto crac. Da allora non carica.",
+    "clue_visual": "La porta è pulita: da fuori non si vede nulla.",
+    "clue_multimeter": "Zero ampere anche con la porta pulita.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "sea_water": {
+    "name": "Danni da acqua di mare",
+    "diagnosis": "Il sale ha ossidato scheda e connettori: va smontato e pulito con alcol isopropilico prima che la corrosione avanzi.",
+    "complaint1": "Ho fatto il bagno con il telefono in tasca…",
+    "complaint2": "È caduto dalla barca. L'ho ripescato subito, giuro!",
+    "complaint3": "Un'onda ha bagnato lo zaino. Adesso fa cose strane.",
+    "clue_visual": "Indicatore di liquidi rosso e ossido verde nella porta.",
+    "clue_multimeter": "La lettura è instabile, oppure non passa corrente.",
+    "clue_battester": "La batteria di solito si salva.",
+    "clue_psu": "Assorbimento instabile: ossido sulla scheda."
+  },
+  "speaker_blown": {
+    "name": "Altoparlante guasto",
+    "diagnosis": "La membrana dell'altoparlante è rotta: il modulo va sostituito.",
+    "complaint1": "La musica gracchia come una radio rotta.",
+    "complaint2": "Non sento più la suoneria. In vivavoce è muto.",
+    "clue_visual": "La griglia è pulita.",
+    "clue_multimeter": "Carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "sand_speaker": {
+    "name": "Sabbia nell'altoparlante",
+    "diagnosis": "Altoparlante e porta sono intasati di sabbia: si aprono e si puliscono, senza ricambi.",
+    "complaint1": "Si sente bassissimo dopo la giornata in spiaggia.",
+    "complaint2": "L'audio è ovattato, come se avesse un cuscino sopra.",
+    "complaint3": "Mio figlio l'ha sepolto nella sabbia. Adesso suona male e carica quando vuole.",
+    "clue_visual": "Sabbia nella griglia e nella porta di ricarica.",
+    "clue_multimeter": "Zero ampere: c'è sabbia anche nella porta.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "earpiece_muffled": {
+    "name": "Capsula auricolare ostruita",
+    "diagnosis": "La retina della capsula auricolare è tappata dallo sporco: va pulita dall'interno.",
+    "complaint1": "In chiamata non sento quasi niente, devo usare il vivavoce.",
+    "complaint2": "Sento le persone lontanissime quando telefono.",
+    "clue_visual": "Da fuori non si nota niente.",
+    "clue_multimeter": "Carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "rear_camera_broken": {
+    "name": "Fotocamera posteriore guasta",
+    "diagnosis": "Il modulo della fotocamera posteriore è danneggiato: si sostituisce.",
+    "complaint1": "Le foto vengono tutte sfocate e la fotocamera fa un ronzio.",
+    "complaint2": "Apro la fotocamera e vedo solo nero.",
+    "clue_visual": "Da fuori non si nota niente.",
+    "clue_multimeter": "Carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "front_camera_broken": {
+    "name": "Fotocamera frontale guasta",
+    "diagnosis": "Il modulo frontale è danneggiato: si sostituisce, sapendo che i sensori accoppiati alla scheda possono perdere funzioni.",
+    "complaint1": "Niente più selfie: la fotocamera davanti resta nera.",
+    "complaint2": "Nelle videochiamate non mi vede nessuno.",
+    "clue_visual": "Da fuori non si nota niente.",
+    "clue_multimeter": "Carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "taptic_dead": {
+    "name": "Vibrazione guasta",
+    "diagnosis": "Il motore di vibrazione è bloccato: si sostituisce il modulo aptico.",
+    "complaint1": "Non vibra più. Mi perdo tutte le chiamate.",
+    "complaint2": "Fa un rumore di zanzara al posto della vibrazione.",
+    "clue_visual": "Da fuori non si nota niente.",
+    "clue_multimeter": "Carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "display_lines": {
+    "name": "Righe sullo schermo",
+    "diagnosis": "Il connettore del display è ossidato dall'umidità: si pulisce con alcol isopropilico, senza cambiare lo schermo.",
+    "complaint1": "Lo schermo fa le righe verdi, ma il vetro è intero.",
+    "complaint2": "Ogni tanto lo schermo sfarfalla e diventa a strisce.",
+    "clue_visual": "Il vetro è intatto.",
+    "clue_multimeter": "Assorbe come all'avvio, ma lo schermo non mostra nulla di buono.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "loose_connector": {
+    "name": "Connettore del display staccato",
+    "diagnosis": "Dopo una riparazione fatta male il flat del display è uscito dalla sede: basta ricollegarlo.",
+    "complaint1": "Me l'ha aperto un amico «che ne capisce». Adesso lo schermo è nero.",
+    "complaint2": "Vibra e suona, ma lo schermo non si accende.",
+    "clue_visual": "Le viti sono segnate: è già stato aperto.",
+    "clue_multimeter": "Assorbe come all'avvio, ma lo schermo resta nero.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "sand_everywhere": {
+    "name": "Sabbia dappertutto",
+    "diagnosis": "La sabbia è entrata fin dentro la scocca: smontaggio completo e pulizia di ogni componente.",
+    "complaint1": "È rimasto sepolto in spiaggia per un'ora. Scricchiola!",
+    "complaint2": "Sento la sabbia sotto i tasti e non carica più bene.",
+    "clue_visual": "Sabbia nella porta di ricarica, a volte anche nella griglia.",
+    "clue_multimeter": "Zero ampere: la porta è piena di sabbia.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "back_glass_cracked": {
+    "name": "Vetro posteriore rotto",
+    "diagnosis": "Il vetro posteriore è crepato: su questo modello si rimuove e si sostituisce dal retro.",
+    "complaint1": "Dietro è tutto crepato e la ricarica wireless non va più.",
+    "complaint2": "Il retro perde pezzetti di vetro nella tasca.",
+    "clue_visual": "Le crepe sul retro si vedono a occhio nudo.",
+    "clue_multimeter": "Con il cavo carica normalmente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La scheda logica risulta a posto."
+  },
+  "charge_ic": {
+    "name": "Chip di ricarica guasto",
+    "diagnosis": "Il circuito integrato che gestisce la ricarica è bruciato (spesso per caricatori scadenti): microsaldatura sulla scheda.",
+    "complaint1": "Non carica con nessun cavo. La porta me l'hanno già cambiata!",
+    "complaint2": "Segna «in carica» ma la percentuale scende.",
+    "clue_visual": "Da fuori non si nota niente.",
+    "clue_multimeter": "Passa solo un filo di corrente.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "La linea di ricarica non risponde: è il chip."
+  },
+  "burnt_connector": {
+    "name": "Connettore bruciato sulla scheda",
+    "diagnosis": "Il connettore del display sulla scheda logica è bruciato: va rifatto con il microscopio e il saldatore.",
+    "complaint1": "Schermo nero. Ne ho già fatti montare due nuovi e non cambia niente!",
+    "complaint2": "Ha fatto una scintilla mentre lo riparavano, poi più nulla.",
+    "clue_visual": "Il vetro è intatto.",
+    "clue_multimeter": "Assorbe come all'avvio, ma lo schermo resta nero.",
+    "clue_battester": "La batteria risulta sana.",
+    "clue_psu": "Corto su una linea del display: connettore bruciato."
+  }
+}

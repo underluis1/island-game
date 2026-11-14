@@ -1,0 +1,366 @@
+{
+  "time": {
+    "dayStart": 7,
+    "dayEnd": 22,
+    "realSecondsPerHour": 48,
+    "repairTimeScale": 0.55,
+    "customersFrom": 8,
+    "customersUntil": 20.5,
+    "closeAllowedFrom": 18,
+    "dayEndingWarning": 21.5,
+    "maxStepHours": 0.05
+  },
+  "start": {
+    "money": 1500,
+    "reputation": 1.0
+  },
+  "reputation": {
+    "prior": 1.0,
+    "priorWeight": 20,
+    "fadeFrom": 20,
+    "fadeTo": 160,
+    "window": 40,
+    "recencyMin": 0.5,
+    "loanPenalty": 0.15,
+    "penaltyRecoveryPerDay": 0.03,
+    "maxPenalty": 0.6
+  },
+  "arrivals": {
+    "basePerHour": 0.75,
+    "hourCurve": [
+      [
+        8,
+        0.7
+      ],
+      [
+        10,
+        1.1
+      ],
+      [
+        12,
+        0.8
+      ],
+      [
+        14,
+        0.7
+      ],
+      [
+        16,
+        1.1
+      ],
+      [
+        18,
+        1.25
+      ],
+      [
+        20.5,
+        0.5
+      ]
+    ],
+    "repBonusPerStar": 0.12,
+    "atmoBonusPer100": 0.45,
+    "maxAtmoBonus": 0.9,
+    "rainPenalty": 0.6,
+    "stageMult": [
+      1,
+      1.2,
+      1.5
+    ],
+    "maxQueue": 2,
+    "firstArrivalDelay": [
+      0.15,
+      0.6
+    ],
+    "missingToolWeight": 0.15,
+    "secondFaultMinRep": 2.6,
+    "secondFaultChance": 0.14,
+    "justUnlockedModelWeight": 0.3,
+    "modelRampStars": 0.6,
+    "modelWeights": {
+      "fone8": 10,
+      "fonex": 9,
+      "fone12": 8,
+      "fone14": 7
+    }
+  },
+  "customers": {
+    "queuePatienceRate": 0.5,
+    "haggleLimit": 2,
+    "hagglePatienceCost": 0.25,
+    "waitFaultMaxLabor": 250,
+    "waitHours": [
+      2,
+      3
+    ],
+    "todayDue": [
+      17.5,
+      18.75
+    ],
+    "todayLatestAccept": 15.5,
+    "normalPickup": [
+      12,
+      18
+    ],
+    "readyCallback": [
+      0.4,
+      1.4
+    ],
+    "pickupPatience": 1.5,
+    "graceHours": {
+      "normal": 1.0,
+      "today": 0.6,
+      "wait": 0.5
+    },
+    "maxLateDays": 1,
+    "recurringFirstDay": 2
+  },
+  "pricing": {
+    "laborMult": 1.4,
+    "partsMarkup": 1.3,
+    "round": 10,
+    "sliderMin": 0.4,
+    "sliderMax": 2.5,
+    "counterBand": 1.25,
+    "counterAt": [
+      0.9,
+      1.0
+    ],
+    "ripoffBand": 1.9,
+    "ripoffReviewChance": 0.5,
+    "lowPrice": 0.82
+  },
+  "review": {
+    "baseFixed": 0.86,
+    "basePartialMin": 0.25,
+    "basePartialSpan": 0.4,
+    "newBroken": 0.18,
+    "pairingLost": {
+      "trueTone": 0.04,
+      "biometric": 0.1
+    },
+    "missingScrew": 0.03,
+    "missingScrewMax": 0.15,
+    "looseScrew": 0.015,
+    "looseScrewMax": 0.08,
+    "leftoverPart": 0.15,
+    "notClosed": 0.4,
+    "sealLost": 0.03,
+    "sealKept": 0.02,
+    "cleanBonus": 0.05,
+    "cheapNoticeChance": 0.35,
+    "cheapNoticed": 0.08,
+    "refurbBonus": 0.03,
+    "veryEarly": 0.06,
+    "early": 0.03,
+    "late": 0.1,
+    "lateDay": 0.2,
+    "priceLow": 0.08,
+    "priceFair": 0.03,
+    "priceHighBand": 1.2,
+    "priceHigh": 0.04,
+    "priceRipoff": 0.14,
+    "mistakeUnit": 0.01,
+    "mistakeMax": 0.06,
+    "expert": 0.04,
+    "misdiagnosis": 0.05,
+    "starThresholds": [
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "tipStars5": 1.0,
+    "tipStars4": 0.4,
+    "tipAtmoPer100": 0.5,
+    "tipSpread": [
+      0.5,
+      1.5
+    ]
+  },
+  "parts": {
+    "qualityMult": {
+      "cheap": 0.55,
+      "good": 1.0,
+      "refurb": 1.7
+    },
+    "expressMult": 1.35,
+    "expressFee": 60,
+    "expressHours": 2,
+    "boatTime": 7.5,
+    "storage": [
+      14,
+      40
+    ],
+    "storageStageBonus": [
+      0,
+      10,
+      30
+    ],
+    "separatorPerDay": 2
+  },
+  "rack": {
+    "capacity": [
+      0,
+      3,
+      5,
+      8
+    ],
+    "stageBonus": [
+      0,
+      1,
+      2
+    ],
+    "benches": [
+      1,
+      2,
+      2
+    ]
+  },
+  "context": {
+    "matCells": [
+      0,
+      8,
+      15,
+      24
+    ],
+    "heatFrom": 11,
+    "heatTo": 15,
+    "heatError": 0.35,
+    "fanFactor": [
+      1,
+      0.5,
+      0
+    ],
+    "darkFrom": 18.5,
+    "darkError": 0.4,
+    "lampReduction": 0.5,
+    "lightsReduction": 0.25,
+    "fatigueFreeHours": 3,
+    "fatiguePerHour": 0.05,
+    "fatigueMax": 0.4,
+    "chairFactor": [
+      1,
+      1,
+      0.6,
+      0.3
+    ]
+  },
+  "stages": {
+    "price": [
+      0,
+      18000,
+      85000
+    ],
+    "minReputation": [
+      0,
+      2.5,
+      4.0
+    ],
+    "rent": [
+      150,
+      650,
+      1800
+    ],
+    "electricity": [
+      0,
+      150,
+      400
+    ],
+    "atmosphere": [
+      0,
+      12,
+      28
+    ],
+    "showcase": [
+      0,
+      420,
+      1100
+    ]
+  },
+  "showcase": {
+    "atmoPer100": 0.8,
+    "repBase": 0.5,
+    "repPerStar": 0.12,
+    "spread": [
+      0.8,
+      1.2
+    ]
+  },
+  "decor": {
+    "sellback": 0.5,
+    "duplicateFalloff": 0.6,
+    "lightsAtmosphere": [
+      0,
+      6,
+      14
+    ],
+    "softCap": 120
+  },
+  "used": {
+    "listings": [
+      2,
+      4
+    ],
+    "priceRange": [
+      0.12,
+      0.35
+    ],
+    "saleBase": 0.72,
+    "scorePower": 1.5,
+    "cheapPartPenalty": 0.06,
+    "refurbPartBonus": 0.02,
+    "cleanWeight": 0.08,
+    "noSealPenalty": 0.03,
+    "deadPhone": 0.15,
+    "sellDays": [
+      0.3,
+      2.2
+    ],
+    "stageSpeed": [
+      1,
+      1.5,
+      2
+    ],
+    "atmoSpeedPer100": 0.6,
+    "faultsTwoChance": 0.35
+  },
+  "assistant": {
+    "wage": 900,
+    "maxLabor": 420,
+    "baseHours": 0.9,
+    "hoursPerStep": 0.012,
+    "errorMult": 1.5
+  },
+  "weather": {
+    "rainChance": 0.3,
+    "rainStart": [
+      9,
+      19
+    ],
+    "rainHours": [
+      0.5,
+      1.2
+    ],
+    "ramp": 0.15
+  },
+  "loan": {
+    "cushion": 500,
+    "repayShare": 0.25
+  },
+  "history": {
+    "maxDays": 60,
+    "seriesDays": 14
+  },
+  "autoplay": {
+    "secondsPerStep": 1.0,
+    "driverSpeed": [
+      1,
+      1,
+      0.85,
+      0.7
+    ],
+    "quoteMinutes": 1.2,
+    "reserve": 1000,
+    "significantUpgrade": 400
+  }
+}

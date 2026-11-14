@@ -1,0 +1,185 @@
+{
+  "housing": {
+    "name": "Scocca",
+    "desc": "Il telaio in metallo che tiene insieme tutto il telefono e fa da dissipatore e da antenna. Ogni altro componente si avvita o si incolla qui. Se si piega, schermo e scheda lavorano sotto sforzo e prima o poi si crepano."
+  },
+  "display_lcd": {
+    "name": "Display LCD",
+    "desc": "Pannello a cristalli liquidi con retroilluminazione, vetro e digitalizzatore del tocco in un unico blocco. Un chip sul flat conserva la calibrazione dei colori (True Tone), legata alla scheda logica. Se si rompe compaiono crepe, macchie o righe, oppure il touch impazzisce."
+  },
+  "display_oled": {
+    "name": "Display OLED",
+    "desc": "Pannello in cui ogni pixel emette luce propria: neri perfetti, ma è sottile e fragile. Contiene anche il sensore del tocco e i dati di calibrazione True Tone. Basta una piega o troppo calore per far comparire righe verdi o zone morte."
+  },
+  "home_bracket": {
+    "name": "Staffa del tasto Home",
+    "desc": "Piastrina metallica che tiene il tasto Home premuto contro il vetro e ne protegge il flat. Va tolta per trasferire il tasto sul display nuovo. Se manca, il tasto balla e il flat si strappa."
+  },
+  "home_button": {
+    "name": "Tasto Home con Touch ID",
+    "desc": "Tasto a stato solido con lettore di impronte digitali. Il sensore è accoppiato in fabbrica alla scheda logica: va sempre trasferito sul display nuovo. Un tasto sostituito funziona come pulsante, ma il Touch ID è perso per sempre."
+  },
+  "earpiece_bracket": {
+    "name": "Staffa dell'auricolare",
+    "desc": "Lamierino che blocca capsula auricolare e fotocamera frontale sul retro del display. Senza di lui i sensori si spostano e le chiamate si sentono male."
+  },
+  "sensor_assembly": {
+    "name": "Gruppo sensori frontali",
+    "desc": "Un unico flat con fotocamera frontale, capsula auricolare, sensore di prossimità e microfono superiore. Se si guasta spariscono i selfie o l'audio in chiamata, e lo schermo non si spegne più quando avvicini il telefono all'orecchio."
+  },
+  "lower_bracket": {
+    "name": "Staffa inferiore dei connettori",
+    "desc": "Scudo metallico avvitato sopra i connettori della batteria e del display. Impedisce ai flat di staccarsi con gli urti. Le sue viti hanno lunghezze diverse: scambiarle può forare la scheda sottostante."
+  },
+  "upper_bracket": {
+    "name": "Staffa superiore dei connettori",
+    "desc": "Scudo che copre il connettore dei sensori frontali sulla scheda logica. Va rimosso prima di poter staccare del tutto il display."
+  },
+  "battery": {
+    "name": "Batteria",
+    "desc": "Cella agli ioni di litio che alimenta tutto il telefono, fissata con linguette adesive elastiche. Con i cicli di ricarica perde capacità, e se viene forata o piegata può gonfiarsi o incendiarsi. È il primo connettore da scollegare e l'ultimo da ricollegare."
+  },
+  "taptic": {
+    "name": "Motore aptico",
+    "desc": "Attuatore lineare che produce vibrazioni e i «click» simulati dello schermo e del tasto Home. Se si blocca il telefono non vibra più o emette un ronzio."
+  },
+  "speaker": {
+    "name": "Altoparlante",
+    "desc": "Modulo con membrana e camera acustica per suoneria, musica e vivavoce. Sabbia e acqua intasano la griglia e ne attutiscono il suono; una membrana lacerata gracchia."
+  },
+  "cam_bracket": {
+    "name": "Staffa della fotocamera",
+    "desc": "Coperchio metallico che tiene ferma la fotocamera posteriore e ne scherma il connettore. Deve essere ben serrato, altrimenti la messa a fuoco vibra."
+  },
+  "rear_camera": {
+    "name": "Fotocamera posteriore",
+    "desc": "Modulo con sensore, lenti e stabilizzatore ottico sospeso su minuscole molle. Un urto forte può rompere lo stabilizzatore: le foto escono mosse e il modulo ronza."
+  },
+  "rear_camera_dual": {
+    "name": "Fotocamere posteriori",
+    "desc": "Blocco unico con grandangolo e seconda ottica, ognuna con il proprio sensore. Sui modelli recenti è calibrato e accoppiato alla scheda logica: un ricambio non programmato funziona, ma con qualità ridotta."
+  },
+  "sim_tray": {
+    "name": "Carrellino SIM",
+    "desc": "Il cassettino che porta la scheda SIM, con una guarnizione di gomma contro l'acqua. Nel suo vano c'è il bollino che diventa rosso a contatto con i liquidi. Senza carrellino il telefono non trova la rete."
+  },
+  "logic_board": {
+    "name": "Scheda logica",
+    "desc": "Il cervello del telefono: processore, memoria, chip di alimentazione, di ricarica e radio su un unico circuito multistrato. Tutti i flat si collegano qui. Ossido, cortocircuiti o una vite troppo lunga possono interrompere piste sottili come capelli."
+  },
+  "logic_board_sandwich": {
+    "name": "Scheda logica a sandwich",
+    "desc": "Due circuiti sovrapposti e saldati tra loro per risparmiare spazio, con i chip racchiusi all'interno. È molto compatta ma soffre le cadute e il calore: se i due strati si separano, il telefono perde rete o non si avvia."
+  },
+  "charge_port": {
+    "name": "Porta di ricarica",
+    "desc": "Flat con il connettore di ricarica, il microfono principale e le antenne inferiori. È il punto dove si accumulano lanugine e sabbia e dove arriva per prima l'acqua salata. Se si guasta, il telefono non carica o non ti sentono in chiamata."
+  },
+  "earpiece_asm": {
+    "name": "Gruppo auricolare e sensori",
+    "desc": "Capsula auricolare unita all'illuminatore a infrarossi e ai sensori di prossimità e di luce. L'illuminatore fa parte del riconoscimento del volto ed è accoppiato alla scheda: va trasferito sul display nuovo, non sostituito."
+  },
+  "conn_bracket": {
+    "name": "Staffa dei connettori",
+    "desc": "Scudo metallico che copre in un colpo solo i connettori di batteria e display. Si toglie per primo, subito dopo aver aperto il telefono, per poter scollegare la batteria."
+  },
+  "sensor_bracket": {
+    "name": "Staffa dei sensori",
+    "desc": "Piccola piastrina che blocca il connettore dei sensori frontali. Ha viti minuscole che si perdono facilmente: meglio metterle subito sul tappetino."
+  },
+  "truedepth": {
+    "name": "Modulo di riconoscimento del volto",
+    "desc": "Fotocamera frontale, fotocamera a infrarossi e proiettore di punti che disegna una mappa 3D del viso. È accoppiato alla scheda logica per sicurezza: se lo danneggi o lo sostituisci, lo sblocco con il volto non funzionerà più."
+  },
+  "disp_bracket": {
+    "name": "Staffa dei connettori del display",
+    "desc": "Scudo che protegge i flat del display dove si innestano nella scheda logica. Va rimosso per poter staccare lo schermo."
+  },
+  "bat_bracket": {
+    "name": "Staffa del connettore batteria",
+    "desc": "Copre il connettore della batteria. È la prima staffa da togliere: finché la batteria è collegata, ogni altro flat è sotto tensione."
+  },
+  "top_bracket": {
+    "name": "Staffa superiore",
+    "desc": "Scudo della zona alta del telefono, sopra i connettori dei sensori frontali. Usa tre tipi di vite diversi: attenzione a rimetterle ognuna nel suo foro."
+  },
+  "earpiece": {
+    "name": "Capsula auricolare",
+    "desc": "Il piccolo altoparlante che avvicini all'orecchio in chiamata; fa anche da secondo canale stereo. La sua retina si intasa di polvere e sudore, e la voce diventa lontana."
+  },
+  "front_bracket": {
+    "name": "Staffa frontale dei connettori",
+    "desc": "Scudo metallico sui connettori del display, raggiungibile aprendo il telefono dal davanti. Tiene i flat premuti nelle loro sedi: se lo dimentichi, al primo urto lo schermo si spegne."
+  },
+  "front_top_bracket": {
+    "name": "Staffa frontale superiore",
+    "desc": "Blocca i connettori dei sensori frontali e della capsula auricolare nella parte alta del telefono. Va tolta prima di poter staccare del tutto il display; senza di lei i flat si sfilano e l'audio in chiamata sparisce."
+  },
+  "back_glass": {
+    "name": "Vetro posteriore",
+    "desc": "Pannello di vetro con la bobina per la ricarica wireless e il magnete di allineamento. Su questo modello si rimuove scaldando l'adesivo, e dà accesso a batteria e componenti senza toccare il display. Se si crepa, addio tenuta all'acqua."
+  },
+  "back_bracket": {
+    "name": "Staffa posteriore dei connettori",
+    "desc": "Scudo che copre i connettori raggiungibili dal retro, tra cui quello della batteria e della bobina wireless. È la prima cosa da svitare dopo aver tolto il vetro posteriore, per poter scollegare la batteria in sicurezza."
+  },
+  "conn": {
+    "lcd": "Flat LCD",
+    "digitizer": "Flat del touch",
+    "front_sensor": "Flat dei sensori frontali",
+    "home": "Flat del tasto Home",
+    "battery": "Connettore della batteria",
+    "taptic": "Flat del motore aptico",
+    "camera": "Flat della fotocamera",
+    "charge": "Flat della porta di ricarica",
+    "oled": "Flat OLED",
+    "earpiece": "Flat dell'auricolare",
+    "speaker": "Flat dell'altoparlante",
+    "truedepth": "Flat del riconoscimento del volto",
+    "ambient": "Flat del sensore di luce",
+    "wireless": "Flat della bobina wireless"
+  },
+  "category": {
+    "housing": "Scocca",
+    "display": "Display",
+    "back_glass": "Vetro posteriore",
+    "battery": "Batteria",
+    "logic_board": "Scheda logica",
+    "charge_port": "Porta di ricarica",
+    "speaker": "Altoparlante",
+    "taptic": "Motore aptico",
+    "rear_camera": "Fotocamera posteriore",
+    "front_sensor": "Modulo sensori frontali",
+    "earpiece": "Capsula auricolare",
+    "home_button": "Tasto Home",
+    "bracket": "Staffa",
+    "sim_tray": "Carrellino SIM"
+  },
+  "quality": {
+    "cheap": "Economico",
+    "good": "Buono",
+    "refurb": "Originale ricondizionato",
+    "factory": "Di fabbrica",
+    "cheap_desc": "Aftermarket: costa poco, ma quasi uno su cinque è difettoso e il cliente può accorgersene.",
+    "good_desc": "Compatibile di buona qualità: affidabile e dal prezzo giusto.",
+    "refurb_desc": "Pezzo originale rigenerato: caro, praticamente mai difettoso, e i clienti lo apprezzano."
+  },
+  "screw": {
+    "P2": {
+      "name": "Pentalobe P2",
+      "use": "Le due viti a stella a cinque punte accanto alla porta di ricarica: tengono chiuso lo schermo."
+    },
+    "Y000": {
+      "name": "Tri-point Y000",
+      "use": "Viti a Y minuscole, usate soprattutto sulle staffe dei connettori."
+    },
+    "PH000": {
+      "name": "Phillips #000",
+      "use": "Le classiche viti a croce: fissano staffe, altoparlante, porta di ricarica e scheda logica."
+    },
+    "SO": {
+      "name": "Standoff",
+      "use": "Distanziali con testa cava: tengono la scheda e fanno da sede ad altre viti."
+    }
+  }
+}

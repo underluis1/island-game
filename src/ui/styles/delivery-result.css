@@ -1,0 +1,259 @@
+/* Delivery result modal. */
+.dr {
+  display: flex;
+  flex-direction: column;
+  width: min(36rem, calc(100vw - 3rem));
+  max-height: calc(100vh - 3rem);
+}
+.dr-head {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  padding: var(--s-5) var(--s-5) var(--s-3);
+}
+.dr-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c-green-d);
+}
+.dr-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  padding: var(--s-1) var(--s-5) var(--s-3);
+}
+.dr-pay {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: var(--s-4);
+  align-items: center;
+  padding: var(--s-3) var(--s-4);
+  border-radius: var(--r-md);
+  background:
+    radial-gradient(90% 120% at 20% 0%, rgba(255, 255, 255, 0.5), transparent 60%),
+    linear-gradient(160deg, var(--c-gold-l), #ffd98a);
+  box-shadow: inset 0 0 0 1px rgba(217, 149, 42, 0.35), 0 0.25rem 0.8rem rgba(217, 149, 42, 0.22);
+}
+.dr-total {
+  position: relative;
+  text-align: center;
+  padding: var(--s-2) 0;
+}
+.dr-total-label {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c-gold-dd);
+}
+.dr-total-val {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  font-family: var(--font-display);
+  font-size: var(--fs-3xl);
+  font-weight: 800;
+  line-height: 1.1;
+  color: #5a3806;
+  white-space: nowrap;
+  animation: dr-bump 0.5s 1.35s var(--e-back) both;
+}
+.dr-total-coin {
+  font-size: 0.72em;
+  color: var(--c-gold-dd);
+}
+@keyframes dr-bump {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+.dr-coins {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.dr-coin {
+  position: absolute;
+  left: -0.7rem;
+  top: -0.7rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 1.05rem;
+  color: var(--c-gold-dd);
+  background: radial-gradient(circle at 35% 30%, #fff3c4, var(--c-gold) 60%, var(--c-gold-d));
+  box-shadow: 0 0.1rem 0.25rem rgba(120, 70, 0, 0.35);
+  opacity: 0;
+  animation: dr-coin 1.15s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+  animation-delay: calc(var(--i) * 45ms + 300ms);
+}
+.dr-coin .ic {
+  width: 100%;
+  height: 100%;
+}
+@keyframes dr-coin {
+  0% { opacity: 0; transform: translate(0, 0) scale(0.3) rotate(0deg); }
+  15% { opacity: 1; }
+  55% { opacity: 1; transform: translate(var(--dx), var(--dy)) scale(1) rotate(200deg); }
+  100% { opacity: 0; transform: translate(calc(var(--dx) * 1.15), calc(var(--dy) + 5rem)) scale(0.8) rotate(380deg); }
+}
+.dr-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.dr-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: 0.22rem 0;
+  font-weight: 700;
+  color: #5a3806;
+}
+.dr-line-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-width: 0;
+}
+.dr-line-val {
+  font-weight: 800;
+  white-space: nowrap;
+}
+.dr-line.is-tip .dr-line-val { color: var(--c-green-d); }
+.dr-line.is-cost .dr-line-val { color: var(--c-coral-d); }
+.dr-line.is-none { opacity: 0.6; }
+.dr-line.is-profit {
+  margin-top: 0.2rem;
+  padding-top: 0.4rem;
+  border-top: 0.12rem dotted rgba(165, 106, 18, 0.5);
+}
+
+.dr-review {
+  padding: var(--s-3) var(--s-4) var(--s-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.dr-review-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+}
+.dr-review-by {
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--c-wood);
+}
+.dr-quote {
+  position: relative;
+  margin: 0;
+  padding-left: 1.9rem;
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.35;
+  color: var(--c-night);
+}
+.dr-quote.is-none {
+  padding-left: 0;
+  font-size: var(--fs-md);
+  color: var(--c-ink-3);
+}
+.dr-quote-mark {
+  position: absolute;
+  left: 0;
+  top: -0.35rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 1;
+  color: var(--c-teal);
+}
+.dr-sad .dr-quote-mark { color: var(--c-coral); }
+.dr-factors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.15rem;
+}
+.dr-factor {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.22em 0.7em 0.22em 0.5em;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-sm);
+  font-weight: 750;
+  animation: pop-in 0.35s var(--e-back) both;
+  animation-delay: calc(var(--i) * 80ms + 1100ms);
+}
+.dr-factor.is-pos { color: #1f6e39; background: var(--c-green-l); }
+.dr-factor.is-neg { color: var(--c-coral-dd); background: var(--c-coral-l); }
+
+.dr-rep {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem var(--s-4);
+  border-radius: var(--r-md);
+  background: rgba(138, 90, 60, 0.08);
+  font-weight: 750;
+  color: var(--c-night);
+}
+.dr-rep-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-right: auto;
+  color: var(--c-wood-d);
+}
+.dr-rep-from { color: var(--c-ink-3); }
+.dr-rep-arrow { color: var(--c-ink-3); font-size: 0.9em; }
+.dr-rep-to { font-size: var(--fs-lg); font-weight: 800; }
+.dr-rep-delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+  padding: 0.15em 0.6em 0.15em 0.4em;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-sm);
+  font-weight: 800;
+  color: var(--c-ink-2);
+  background: rgba(138, 90, 60, 0.13);
+  font-variant-numeric: tabular-nums;
+}
+.dr-rep-delta .ic { font-size: 0.9em; }
+.dr-rep-delta.is-up { color: #1f6e39; background: var(--c-green-l); animation: dr-bump 0.5s 1.6s var(--e-back) both; }
+.dr-rep-delta.is-down { color: var(--c-coral-dd); background: var(--c-coral-l); animation: ui-shake 0.35s 1.6s var(--e-out) both; }
+
+.dr-foot {
+  display: flex;
+  justify-content: center;
+  padding: var(--s-3) var(--s-5) var(--s-5);
+}
+.dr-foot .btn {
+  min-width: 14rem;
+}
+.dr.is-instant .dr-coin { animation: none; }
+.dr.is-instant .dr-factor,
+.dr.is-instant .dr-total-val,
+.dr.is-instant .dr-rep-delta { animation: none; }
+.dr-sad .dr-coin { display: none; }

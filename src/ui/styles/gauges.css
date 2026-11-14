@@ -1,0 +1,110 @@
+/* Repair gauges (glass overlays). */
+.gauge {
+  --gt: var(--c-on-glass-2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15rem;
+  padding: 0.55rem 0.8rem 0.7rem;
+  border-radius: var(--r-md);
+  pointer-events: none;
+  animation: pop-in 0.22s var(--e-back) both;
+  will-change: transform;
+}
+.gauge.is-docked {
+  left: 50%;
+  top: auto;
+  bottom: 12.4rem;
+  margin-left: -7.5rem;
+}
+.gauge.is-leaving { opacity: 0; transition: opacity 0.15s; }
+.gauge[data-tone='ok'] { --gt: #8fe6a4; }
+.gauge[data-tone='warn'] { --gt: var(--c-gold); }
+.gauge[data-tone='bad'] { --gt: #ff9c8c; border-color: rgba(255, 111, 89, 0.7); }
+.gauge-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-on-glass-2);
+  margin-bottom: 0.35rem;
+}
+.gauge-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gauge-lcd { width: 17rem; }
+.gauge-lcd.is-docked { margin-left: -8.5rem; }
+.gauge-status { color: var(--gt); letter-spacing: 0; text-transform: none; font-size: var(--fs-sm); white-space: nowrap; }
+.gauge-row { display: flex; align-items: center; gap: 0.7rem; }
+.gauge-row > .gm, .gauge-row > .gauge-mini { flex: 1; }
+.gauge-value { font-family: var(--font-display); font-size: var(--fs-xl); line-height: 1; min-width: 3.6rem; color: var(--gt); }
+.gauge[data-tone='idle'] .gauge-value { color: var(--c-on-glass); }
+.gauge-sub { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.45rem; font-size: var(--fs-xs); color: var(--c-on-glass-2); }
+.gauge-mini { flex: 1; height: 0.35rem; border-radius: var(--r-pill); background: rgba(255, 255, 255, 0.14); overflow: hidden; }
+.gauge-mini.is-big { height: 0.7rem; }
+.gauge-mini i { display: block; height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, #36d3c8, var(--c-teal)); }
+
+/* linear meter */
+.gm { position: relative; height: 1.5rem; }
+.gm-track { position: absolute; left: 0; right: 0; top: 0.45rem; height: 0.6rem; border-radius: var(--r-pill); background: rgba(255, 255, 255, 0.14); overflow: hidden; }
+.gm-zone { position: absolute; top: 0; bottom: 0; }
+.gm-zone.is-ok { background: var(--c-green); }
+.gm-zone.is-bad { background: repeating-linear-gradient(-45deg, var(--c-coral) 0 0.3rem, var(--c-coral-d) 0.3rem 0.6rem); }
+.gm-marker {
+  position: absolute;
+  top: 0;
+  width: 0.34rem;
+  height: 1.5rem;
+  margin-left: -0.17rem;
+  border-radius: 0.2rem;
+  background: #fff;
+  box-shadow: 0 0 0 0.1rem rgba(8, 22, 38, 0.7), 0 0 0.6rem var(--gt);
+}
+
+/* torque dial */
+.gauge-torque { width: 14.5rem; }
+.gauge-torque.is-docked { margin-left: -7.25rem; }
+.gd svg { display: block; width: 100%; overflow: visible; }
+.gd-zone { fill: none; stroke-width: 9; }
+.gd-zone.is-warn { stroke: var(--c-gold); opacity: 0.75; }
+.gd-zone.is-ok { stroke: var(--c-green); }
+.gd-zone.is-bad { stroke: var(--c-coral); }
+.gd-ring-bg { fill: none; stroke: rgba(255, 255, 255, 0.14); stroke-width: 3; stroke-linecap: round; }
+.gd-ring { fill: none; stroke: var(--c-teal); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; }
+.gd-needle { transform-origin: 60px 60px; transform: rotate(-90deg); }
+.gd-needle path { stroke: #fff; stroke-width: 3; stroke-linecap: round; filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6)); }
+.gd-hub { fill: #fff; stroke: var(--c-night); stroke-width: 2; }
+.gd-labels { display: flex; justify-content: space-between; font-size: 0.66rem; font-weight: 700; color: var(--c-on-glass-2); margin-top: 0.1rem; }
+
+/* multimeter LCD */
+.lcd {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(180deg, #b9c9a4, #a3b58d);
+  box-shadow: inset 0 0.15rem 0.4rem rgba(20, 40, 10, 0.5);
+  color: #1c2a14;
+}
+.seg7 { display: block; height: 2.6rem; }
+.seg7 svg { height: 100%; display: block; }
+.seg7 polygon { fill: rgba(28, 42, 20, 0.1); }
+.seg7 polygon.on, .seg7 circle.on { fill: #1c2a14; }
+.lcd-unit { font-family: var(--font-display); font-size: var(--fs-xl); line-height: 1; }
+.lcd-volts { margin-left: auto; font-size: var(--fs-xs); font-weight: 800; align-self: flex-start; }
+
+/* battery */
+.batt {
+  position: relative;
+  width: 5rem;
+  height: 2.2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 0.16rem rgba(255, 255, 255, 0.8);
+  flex: none;
+}
+.batt::after { content: ''; position: absolute; right: -0.4rem; top: 30%; bottom: 30%; width: 0.3rem; border-radius: 0 0.2rem 0.2rem 0; background: rgba(255, 255, 255, 0.8); }
+.batt i { display: block; height: 100%; border-radius: 0.3rem; background: var(--gt); }
+.gauge-cycles { display: block; font-size: var(--fs-xs); color: var(--c-on-glass-2); }

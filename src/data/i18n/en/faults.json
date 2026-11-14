@@ -1,0 +1,240 @@
+{
+  "tool": {
+    "visual": "Visual inspection",
+    "multimeter": "USB tester",
+    "battester": "Battery tester",
+    "psu": "Bench power supply"
+  },
+  "reading": {
+    "visual": {
+      "cracked_display": "The screen glass is cracked.",
+      "cracked_back": "The back glass is cracked.",
+      "port_dirty": "The charging port is packed with lint and sand.",
+      "port_corroded": "The charging port contacts are green with corrosion.",
+      "display_lifted": "The screen is lifting off the frame: something is pushing from underneath.",
+      "grille_sand": "The speaker grille is clogged with sand.",
+      "water_indicator": "The liquid contact indicator in the SIM slot is red.",
+      "previous_repair": "The bottom screws are chewed up: someone has already opened it.",
+      "nothing_visible": "Nothing looks wrong from the outside."
+    },
+    "ammeter": {
+      "no_current": "{amps} A — no current flowing: the cable isn't making contact.",
+      "trickle": "{amps} A — just a trickle: the phone is on but won't take a charge.",
+      "unstable": "{amps} A — the reading jumps up and down: there's a short or corrosion on the board.",
+      "boot_no_screen": "{amps} A — it draws current like a phone booting up, but the screen stays black.",
+      "charging_ok": "{amps} A — charging normally.",
+      "charging_slow": "{amps} A — charging, but at low current: the battery is struggling."
+    },
+    "battery": {
+      "missing": "No battery detected.",
+      "health": "Health {health}% · {cycles} charge cycles",
+      "swollen": "Irregular voltage: the cell is swollen. Handle with care!",
+      "dead": "The cell is completely drained and won't hold a voltage.",
+      "worn": "Worn-out battery: needs replacing.",
+      "ok": "Battery in good health."
+    },
+    "psu": {
+      "ok": "Normal idle current draw: the logic board is fine.",
+      "charge_ic": "The charging line isn't responding: faulty charging chip.",
+      "connector": "Short on a display line: a connector on the board is burnt.",
+      "long_screw": "A broken trace under a screw: someone used a screw that was too long.",
+      "short": "Abnormal draw on the charging line: there's a short on the board.",
+      "corrosion": "Unstable current draw: there's corrosion on the logic board."
+    }
+  },
+  "cracked_screen": {
+    "name": "Cracked screen",
+    "diagnosis": "The glass and the panel were damaged by an impact: the display needs replacing.",
+    "complaint1": "It slipped onto the rocks. The screen is one big spiderweb.",
+    "complaint2": "It fell off the scooter… you can still see something, but the touch does whatever it likes.",
+    "complaint3": "The glass is cracked all over, I cut my fingers when I type.",
+    "clue_visual": "The cracks in the glass are visible to the naked eye.",
+    "clue_multimeter": "It usually charges normally; if the panel is dead it draws current like it's booting but stays black.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "worn_battery": {
+    "name": "Worn-out battery",
+    "diagnosis": "The battery has lost capacity over its charge cycles: it gets replaced.",
+    "complaint1": "The battery doesn't make it to lunch. 100% in the morning, dead by noon.",
+    "complaint2": "It shuts off at 30% when I take a photo. Then I plug it in and it comes back.",
+    "complaint3": "I have to carry a power bank everywhere, it doesn't last at all anymore.",
+    "clue_visual": "Nothing to see from the outside.",
+    "clue_multimeter": "It charges, but at a lower current than normal.",
+    "clue_battester": "Health below 70% and lots of cycles.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "dead_battery": {
+    "name": "Dead battery",
+    "diagnosis": "The cell is completely spent and can no longer power the phone: new battery.",
+    "complaint1": "It won't turn on anymore. I left it charging all night, nothing.",
+    "complaint2": "It died all of a sudden last night. Black screen, no sign of life.",
+    "clue_visual": "Nothing to see from the outside.",
+    "clue_multimeter": "It draws very little current and the phone won't start.",
+    "clue_battester": "Health close to zero.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "swollen_battery": {
+    "name": "Swollen battery",
+    "diagnosis": "The battery has swollen and is pushing on the screen: it has to be removed very gently and replaced.",
+    "complaint1": "The screen is coming off by itself, is that normal?",
+    "complaint2": "The phone has gotten… chubby. And it won't turn on anymore.",
+    "clue_visual": "The screen is lifting off the frame.",
+    "clue_multimeter": "It draws very little current and the phone won't start.",
+    "clue_battester": "Reports a swollen cell.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "port_lint": {
+    "name": "Dirty charging port",
+    "diagnosis": "Lint and sand packed into the bottom of the port stop the cable from making contact: it just needs cleaning.",
+    "complaint1": "It won't charge anymore. The cable doesn't go all the way in.",
+    "complaint2": "It only charges if I hold the cable bent a certain way.",
+    "complaint3": "I've tried three different chargers, no luck.",
+    "clue_visual": "Look inside the port and you can see the dirt.",
+    "clue_multimeter": "Zero amps: the cable isn't making contact.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "port_broken": {
+    "name": "Broken charging connector",
+    "diagnosis": "The port's contacts are bent or snapped: the charging port flex cable gets replaced.",
+    "complaint1": "It won't charge. The cable wobbles around in the port.",
+    "complaint2": "I yanked the cable sideways and it went crack. It hasn't charged since.",
+    "clue_visual": "The port is clean: nothing to see from the outside.",
+    "clue_multimeter": "Zero amps even with a clean port.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "sea_water": {
+    "name": "Seawater damage",
+    "diagnosis": "Salt has corroded the board and connectors: it must be taken apart and cleaned with isopropyl alcohol before the corrosion spreads.",
+    "complaint1": "I went for a swim with the phone in my pocket…",
+    "complaint2": "It fell off the boat. I fished it out right away, I swear!",
+    "complaint3": "A wave soaked my backpack. Now it's acting weird.",
+    "clue_visual": "Red liquid indicator and green corrosion in the port.",
+    "clue_multimeter": "The reading is unstable, or no current flows at all.",
+    "clue_battester": "The battery usually survives.",
+    "clue_psu": "Unstable current draw: corrosion on the board."
+  },
+  "speaker_blown": {
+    "name": "Blown speaker",
+    "diagnosis": "The speaker's diaphragm is torn: the module needs replacing.",
+    "complaint1": "Music crackles like a broken radio.",
+    "complaint2": "I can't hear the ringtone anymore. On speakerphone it's silent.",
+    "clue_visual": "The grille is clean.",
+    "clue_multimeter": "Charges normally.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "sand_speaker": {
+    "name": "Sand in the speaker",
+    "diagnosis": "The speaker and the port are clogged with sand: open them up and clean them, no parts needed.",
+    "complaint1": "It's super quiet after a day at the beach.",
+    "complaint2": "The sound is muffled, like there's a pillow over it.",
+    "complaint3": "My kid buried it in the sand. Now it sounds awful and charges when it feels like it.",
+    "clue_visual": "Sand in the grille and in the charging port.",
+    "clue_multimeter": "Zero amps: there's sand in the port too.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "earpiece_muffled": {
+    "name": "Clogged earpiece speaker",
+    "diagnosis": "The earpiece speaker's mesh is blocked with dirt: it has to be cleaned from the inside.",
+    "complaint1": "On calls I can barely hear anything, I have to use speakerphone.",
+    "complaint2": "People sound miles away when I'm on the phone.",
+    "clue_visual": "Nothing noticeable from the outside.",
+    "clue_multimeter": "Charges normally.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "rear_camera_broken": {
+    "name": "Faulty rear camera",
+    "diagnosis": "The rear camera module is damaged: it gets replaced.",
+    "complaint1": "Every photo comes out blurry and the camera makes a buzzing noise.",
+    "complaint2": "I open the camera and all I see is black.",
+    "clue_visual": "Nothing noticeable from the outside.",
+    "clue_multimeter": "Charges normally.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "front_camera_broken": {
+    "name": "Faulty front camera",
+    "diagnosis": "The front module is damaged: it gets replaced, bearing in mind that sensors paired to the board may lose features.",
+    "complaint1": "No more selfies: the front camera stays black.",
+    "complaint2": "Nobody can see me on video calls.",
+    "clue_visual": "Nothing noticeable from the outside.",
+    "clue_multimeter": "Charges normally.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "taptic_dead": {
+    "name": "Faulty vibration",
+    "diagnosis": "The vibration motor is jammed: the haptic engine gets replaced.",
+    "complaint1": "It doesn't vibrate anymore. I miss every call.",
+    "complaint2": "It whines like a mosquito instead of vibrating.",
+    "clue_visual": "Nothing noticeable from the outside.",
+    "clue_multimeter": "Charges normally.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "display_lines": {
+    "name": "Lines on the screen",
+    "diagnosis": "The display connector is corroded by moisture: clean it with isopropyl alcohol, no need to replace the screen.",
+    "complaint1": "The screen shows green lines, but the glass isn't broken.",
+    "complaint2": "Every now and then the screen flickers and goes all stripy.",
+    "clue_visual": "The glass is intact.",
+    "clue_multimeter": "It draws current like it's booting, but the screen shows nothing useful.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "loose_connector": {
+    "name": "Loose display connector",
+    "diagnosis": "After a botched repair the display flex cable has popped out of its socket: it just needs reconnecting.",
+    "complaint1": "A friend “who knows about these things” opened it up for me. Now the screen is black.",
+    "complaint2": "It vibrates and rings, but the screen won't come on.",
+    "clue_visual": "The screws are chewed up: it's been opened before.",
+    "clue_multimeter": "It draws current like it's booting, but the screen stays black.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "sand_everywhere": {
+    "name": "Sand everywhere",
+    "diagnosis": "Sand has worked its way right inside the housing: full teardown and cleaning of every component.",
+    "complaint1": "It was buried on the beach for an hour. It crunches!",
+    "complaint2": "I can feel sand under the buttons and it doesn't charge properly anymore.",
+    "clue_visual": "Sand in the charging port, sometimes in the grille too.",
+    "clue_multimeter": "Zero amps: the port is full of sand.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "back_glass_cracked": {
+    "name": "Cracked back glass",
+    "diagnosis": "The back glass is cracked: on this model it's removed and replaced from the rear.",
+    "complaint1": "The back is cracked all over and wireless charging has stopped working.",
+    "complaint2": "The back keeps shedding bits of glass in my pocket.",
+    "clue_visual": "The cracks on the back are visible to the naked eye.",
+    "clue_multimeter": "It charges normally with a cable.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The logic board checks out fine."
+  },
+  "charge_ic": {
+    "name": "Faulty charging chip",
+    "diagnosis": "The integrated circuit that manages charging is burnt out (often thanks to cheap chargers): micro-soldering on the board.",
+    "complaint1": "It won't charge with any cable. And I've already had the port replaced!",
+    "complaint2": "It says “charging” but the percentage keeps dropping.",
+    "clue_visual": "Nothing noticeable from the outside.",
+    "clue_multimeter": "Only a trickle of current gets through.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "The charging line isn't responding: it's the chip."
+  },
+  "burnt_connector": {
+    "name": "Burnt connector on the board",
+    "diagnosis": "The display connector on the logic board is burnt: it has to be rebuilt with the microscope and the soldering iron.",
+    "complaint1": "Black screen. I've already had two new ones fitted and nothing changes!",
+    "complaint2": "It sparked while they were repairing it, then nothing.",
+    "clue_visual": "The glass is intact.",
+    "clue_multimeter": "It draws current like it's booting, but the screen stays black.",
+    "clue_battester": "The battery checks out healthy.",
+    "clue_psu": "Short on a display line: burnt connector."
+  }
+}

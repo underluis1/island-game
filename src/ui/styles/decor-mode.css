@@ -1,0 +1,53 @@
+/* Decoration mode overlay. */
+.decor { position: absolute; inset: 0; }
+.decor.is-leaving { opacity: 0; transition: opacity 0.2s; }
+.decor-top { position: absolute; left: var(--edge); right: var(--edge); top: var(--edge); display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; animation: slide-down 0.4s var(--e-out) both; }
+.decor-atmo { display: flex; align-items: center; gap: 0.7rem; width: 17rem; padding: 0.55rem 0.9rem 0.6rem 0.55rem; border-radius: var(--r-lg); }
+.decor-atmo-ic { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; font-size: 1.4rem; color: #fff; background: linear-gradient(160deg, #a996ee, #7a62cf); flex: none; }
+.decor-atmo-top { display: flex; align-items: baseline; gap: 0.4rem; font-size: var(--fs-xs); font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; color: var(--c-on-glass-2); }
+.decor-atmo-top b { font-family: var(--font-display); font-size: var(--fs-xl); letter-spacing: 0; color: var(--c-on-glass); margin-left: auto; line-height: 1; }
+.decor-atmo-next { letter-spacing: 0; }
+.decor-atmo-bar { height: 0.45rem; margin-top: 0.3rem; border-radius: var(--r-pill); background: rgba(255, 255, 255, 0.14); overflow: hidden; }
+.decor-atmo-bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #a996ee, #e3d8ff); transition: width var(--d-slow) var(--e-out); }
+.decor-atmo-label { margin-top: 0.3rem; font-size: var(--fs-xs); color: var(--c-on-glass-2); }
+.decor-help { display: flex; align-items: center; gap: 1.3rem; height: 2.9rem; padding: 0 1.2rem; border-radius: var(--r-pill); font-size: var(--fs-sm); font-weight: 750; }
+.decor-help.is-invalid { background: rgba(190, 60, 44, 0.88); }
+.decor-help-item { display: inline-flex; align-items: center; gap: 0.45rem; white-space: nowrap; }
+.decor-help-item > .ic { font-size: 1.2rem; color: var(--c-gold); }
+.decor-help .money-coin { color: var(--c-gold); }
+.decor-exit { height: 2.9rem; border-radius: var(--r-pill); }
+.panel.decor-palette { position: absolute; left: 50%; bottom: var(--edge); transform: translateX(-50%); width: min(70rem, calc(100vw - 2 * var(--edge))); padding: 0.7rem 0.9rem 0.8rem; display: flex; flex-direction: column; gap: 0.6rem; animation: decor-in 0.45s var(--e-out) both; }
+@keyframes decor-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(3rem); }
+}
+.decor-palette-head { display: flex; align-items: center; gap: 0.8rem; }
+.decor-items { display: flex; gap: 0.55rem; overflow-x: auto; overflow-y: hidden; padding: 0.15rem 0.1rem 0.5rem; }
+.decor-items::-webkit-scrollbar { height: 0.6rem; }
+.decor-item {
+  --tc: var(--c-teal);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 8.2rem;
+  padding: 0.45rem;
+  border: 0;
+  border-radius: var(--r-md);
+  text-align: left;
+  color: var(--c-night);
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 0 0 1px var(--c-line);
+  cursor: pointer;
+  flex: none;
+  transition: transform var(--d-fast) var(--e-back), box-shadow var(--d-fast), background-color var(--d-fast);
+}
+.decor-item:hover { transform: translateY(-0.2rem); background: #fff; }
+.decor-item.is-selected { background: #fff; box-shadow: inset 0 0 0 0.16rem var(--c-teal), 0 0.4rem 1rem rgba(24, 184, 176, 0.35); transform: translateY(-0.35rem); }
+.decor-item.is-blocked { opacity: 0.55; cursor: not-allowed; }
+.decor-item-art { position: relative; display: grid; place-items: center; height: 4.2rem; border-radius: 0.6rem; font-size: 2.1rem; color: color-mix(in srgb, var(--tc) 65%, #17324d); background: radial-gradient(circle at 50% 35%, #fff, color-mix(in srgb, var(--tc) 24%, #fff)); }
+.decor-item-stock { position: absolute; top: 0.25rem; right: 0.3rem; padding: 0 0.4rem; border-radius: var(--r-pill); font-size: var(--fs-xs); font-weight: 800; color: #fff; background: var(--c-teal-d); }
+.decor-item-name { font-size: var(--fs-sm); font-weight: 800; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.decor-item-foot { display: flex; align-items: center; justify-content: space-between; gap: 0.3rem; font-size: var(--fs-xs); }
+.decor-item-atmo { display: inline-flex; align-items: center; gap: 0.2rem; font-weight: 800; color: #7a4fb0; }
+.decor-item-own { font-weight: 800; color: var(--c-green-d); }
+.decor-empty { display: flex; align-items: center; justify-content: center; gap: 0.6rem; height: 7.6rem; color: var(--c-ink-2); font-weight: 650; }
+.decor-empty .ic { font-size: 1.6rem; color: var(--c-teal-d); }

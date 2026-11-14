@@ -1,0 +1,52 @@
+{
+ "speaker": {
+  "somchai": "Lung Somchai",
+  "noi": "Noi",
+  "chai": "Mr. Chai"
+ },
+ "intro": {
+  "1": "{{Sawasdee krub|hello}}! There you are. I'm Somchai, but everyone here calls me Lung — \"uncle\".",
+  "2": "Thirty years fixing phones on this beach. Now my hands shake a little… and the hammock is calling. The stall is yours.",
+  "3": "You don't have much: a mat, a cheap screwdriver, a suction cup. With the right head, it's enough. {{Mai pen rai|no worries}}!",
+  "4": "Before you touch a customer's phone, let's strip this old Fone 8 together. It's a wreck: nobody cries if you slip.",
+  "5": "Click the work mat to sit at the bench. I'll guide you step by step."
+ },
+ "lesson": {
+  "power_off": "Rule number one: ALWAYS power off before opening. A live phone is a phone that can fry.",
+  "unscrew": "See the two tiny screws by the charge port? They're pentalobes, five points: you need the P2 bit. Select the driver and hold on the screw.",
+  "place_screw": "Every screw has a home. Put it on the magnetic mat, one cell per group: soon you'll see why it's life or death.",
+  "heat": "The display is glued. Cold, it cracks: heat the edges until the adhesive softens. Watch the bar: too little won't give, too much cooks the screen.",
+  "suction": "Now the suction cup: press on the glass and pull up gently. Hear the pop? A gap opened.",
+  "cut": "Slip the pick in and drag it all around the edge: the orange strip turns green where you've cut. Where it's red, stay close to the edge: flex cables run under there. Cut one and the display is scrap.",
+  "open": "Now take the Hand (key 1) and click the display: it opens like a book, from the right side. Never yank: it's still attached by its cables.",
+  "disconnect_battery": "Stop! Before touching any connector, unplug the BATTERY. Remove the bracket and use the plastic spudger — never metal. No power, no sparks.",
+  "disconnect": "Good. Now the other connectors: a gentle pry and they click. Delicate as butterfly wings.",
+  "remove": "Once a part is free of screws, brackets and connectors, lift it with the tweezers and lay it on the mat. It stays where you leave it.",
+  "pull_tab": "The battery is held by stretchy adhesive tabs. Pull slowly, low and steady. Yank and they snap — then you need alcohol and a lot of patience.",
+  "pry_pad": "This part is only lightly glued: pry gently with the spudger.",
+  "teardown_done": "Look at that: a whole phone, piece by piece. Every part you remove goes into your encyclopedia. Now the hard part: putting it back!",
+  "install": "Reassembly goes in reverse: bottom parts first. Click a part on the mat to put it back.",
+  "pick_screw": "Now you get the mat. Screws are NOT all the same: a long screw in a short hole pierces the board beneath. It's called long screw damage, and it has killed more phones than seawater.",
+  "screw_in": "Hold to tighten, release when the needle is in the green. Too little: it rattles. Too much: you strip it, and I glare at you from the hammock.",
+  "connect": "Press connectors until they click. All of them, except one that waits…",
+  "connect_battery": "…the battery. Always last, so nothing is live while you work. First out, last in.",
+  "close": "Close the display and put the two pentalobes back. Then power on.",
+  "done": "Now the final test: check every function before handing a phone back. Press 'Final test'."
+ },
+ "after_test": {
+  "1": "Everything works! You've got good hands, {{nong|kid}}. Better than mine at twenty… almost.",
+  "2": "Look, here comes Noi from the bar next door. Her phone doesn't last till evening. Listen to the customer, diagnose, quote an honest price.",
+  "3": "Here, a new battery: my gift for your first job. Order the next ones from Mr. Chai, who comes by boat every morning."
+ },
+ "first_customer": {
+  "counter": "Click the customer to hear what she needs.",
+  "accepted": "Order taken! The phone is on the bench: click the mat to start. Just a battery swap: follow the guide.",
+  "delivered": "Your first review! Stars bring customers, customers bring baht."
+ },
+ "first_purchase": {
+  "1": "With your first earnings, buy a better tool. Open the tablet (Tab) and check the catalog.",
+  "done": "Great pick. Every tool changes your work: fewer mistakes, more speed, new repairs.",
+  "bye": "I'm off to the hammock. If you run out of money, you know where to find me… {{Chok dee|good luck}}!"
+ },
+ "skip": "Skip tutorial"
+}
